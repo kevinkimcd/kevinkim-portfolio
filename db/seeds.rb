@@ -66,6 +66,7 @@ Project.create(
   company: "IBB Consulting Group",
   start_year: 2016,
   end_year: 2016,
+  
 )
 
 Project.create(
@@ -181,7 +182,7 @@ Slide.create(
 
 Slide.create(
   title: "User experience design",
-  description: "Collaborated with in-house design team to define user groups and user experience journeys. Working sessions led to the drafting of UX requirements and visual guidelines optimized against product use cases and organization’s design language.",
+  description: "Collaborated with in-house design team to define user groups and user experience journeys. Working sessions led to the drafting of UX requirements and visual guidelines optimized against product use cases and organization\’s design language.",
   project_id: 5,
 )
 
