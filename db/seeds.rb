@@ -13,7 +13,7 @@ Project.create(
 )
 
 Project.create(
-  title: "Video streaming platform",
+  title: "Video streaming service",
   client_name: "Media & entertainment conglomerate",
   blurb: "Workstream lead for development and launch of new video streaming service",
   description: "Client was developing a new video streaming service for an initial launch in the US market. In addition to broader program management and data delivery management responsibilities, we led individual workstreams and their deliverables.

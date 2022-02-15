@@ -2,6 +2,9 @@ require_relative "boot"
 
 require "rails"
 
+# debugging with pry-byebug
+require "pry-byebug"
+
 %w(
   active_record/railtie
   active_storage/engine
