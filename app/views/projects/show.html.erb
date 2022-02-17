@@ -1,1 +1,52 @@
-<%= @project.title %>
+<div class="project-banner">
+
+  <div class="project-header">
+    <div class="project-show-container">
+      <div class="project-header-left">
+        <%= @project.title %>
+        <%= @project.client_name %>
+      </div>
+      <div class="project-header-right">
+        <%= @project.blurb %>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-banner-image">
+    <%= image_tag @project.banner %>
+  </div>
+
+</div>
+
+
+<div class="project-show-container">
+
+  <div class="project-details">
+    <div class="project-details-left">
+      <% if @project.start_year == @project.end_year %>
+        <%= @project.start_year %>
+      <% else %>
+        <%= "#{@project.start_year}" + "-" + "#{@project.end_year}" %>
+      <% end %>
+      <%= @project.company %>
+    </div>
+    <div class="project-details-right">
+      <%= @project.description %>
+    </div>
+  </div>
+
+  <div class="slide-grid-container">
+    <% @slides.each do |slide| %>
+      <div class="slide-grid-item">
+        <div class="slide-grid-left">
+          <%= image_tag slide.image %>
+        </div>
+        <div class="slide-grid-right">
+          <%= slide.description %>
+        </div>
+      </div>
+    <% end %>
+
+  </div>
+
+</div>

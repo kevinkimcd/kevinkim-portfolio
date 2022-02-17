@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_02_11_225047) do
+ActiveRecord::Schema[7.0].define(version: 2022_02_16_222650) do
   create_table "projects", force: :cascade do |t|
     t.string "title"
     t.string "client_name"
@@ -21,6 +21,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_02_11_225047) do
     t.integer "end_year"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "thumbnail"
+    t.string "banner"
   end
 
   create_table "slides", force: :cascade do |t|
@@ -29,6 +31,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_02_11_225047) do
     t.integer "project_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "image"
     t.index ["project_id"], name: "index_slides_on_project_id"
   end
 
