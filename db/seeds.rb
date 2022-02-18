@@ -3,7 +3,7 @@
 Project.create(
   title: "Customer service chatbot assistant",
   client_name: "US-based cable & Internet provider",
-  blurb: "Product planning and design of chatbot assistant to transition common phone-based customer support inquiries to web-based chat and SMS",
+  blurb: "Product planning and design of chatbot assistant to transition common support agent inquiries to automated web chat and SMS",
   description: "Client had a chatbot assistant to help customers with basic customer service needs. For their next major iteration, the goal was to enhance the assistant with the ability to handle more complex inquiries and directly interface with internal systems.
 
   We identified the customer support categories that normally require the most agent involvement, as these represent the highest cost from a care channel standpoint. We designed conversation flows for this initial set of support categories and drafted technical requirements to support the full journey from the backend.",
@@ -11,7 +11,13 @@ Project.create(
   start_year: 2020,
   end_year: 2021,
   thumbnail: "thumbnails/project01.png",
-  banner: "banners/project01.png"
+  banner: "banners/project01.png",
+  banner_height: "640px",
+  banner_bg_color: "#f2f2f2",
+  banner_text_color: "$text-default",
+  banner_subtext_color: "$text-unfocused"
+  # banner_upper_padding: ,
+  # banner_lower_padding: ,
 )
 
 Project.create(
@@ -25,7 +31,11 @@ Project.create(
   start_year: 2019,
   end_year: 2020,
   thumbnail: "thumbnails/project02.png",
-  banner: "banners/project02.png"
+  banner: "banners/project02.png",
+  banner_height: "512px",
+  banner_bg_color: "#242A33",
+  banner_text_color: "#D7E3F4",
+  banner_subtext_color: "#46525F"
 )
 
 Project.create(
@@ -39,7 +49,11 @@ Project.create(
   start_year: 2021,
   end_year: 2021,
   thumbnail: "thumbnails/project03.png",
-  banner: "banners/project03.png"
+  banner: "banners/project03.png",
+  banner_height: "712px",
+  banner_bg_color: "#E2EDED",
+  banner_text_color: "#063636",
+  banner_subtext_color: "#A9C7C7"
 )
 
 Project.create(
@@ -51,7 +65,11 @@ Project.create(
   start_year: 2020,
   end_year: 2020,
   thumbnail: "thumbnails/project04.png",
-  banner: "banners/project04.png"
+  banner: "banners/project04.png",
+  banner_height: "600px",
+  banner_bg_color: "#EFF1F4",
+  banner_text_color: "#414953",
+  banner_subtext_color: "#B5BCC6"
 )
 
 Project.create(
@@ -63,7 +81,11 @@ Project.create(
   start_year: 2018,
   end_year: 2019,
   thumbnail: "thumbnails/project05.png",
-  banner: "banners/project05.png"
+  banner: "banners/project05.png",
+  banner_height: "600px",
+  banner_bg_color: "#C9D7DE",
+  banner_text_color: "#21333C",
+  banner_subtext_color: "#96AFBE"
 )
 
 Project.create(
@@ -77,7 +99,11 @@ Project.create(
   start_year: 2016,
   end_year: 2016,
   thumbnail: "thumbnails/project06.png",
-  banner: "banners/project06.png"
+  banner: "banners/project06.png",
+  banner_height: "864px",
+  banner_bg_color: "#DDD8D8",
+  banner_text_color: "#2E1616",
+  banner_subtext_color: "#725D5D"
 )
 
 Project.create(
@@ -91,7 +117,11 @@ Project.create(
   start_year: 2015,
   end_year: 2015,
   thumbnail: "thumbnails/project07.png",
-  banner: "banners/project07.png"
+  banner: "banners/project07.png",
+  banner_height: "864px",
+  banner_bg_color: "#2F2F2F",
+  banner_text_color: "#FFFFFF",
+  banner_subtext_color: "#888888"
 )
 
 Project.create(
@@ -105,7 +135,11 @@ Project.create(
   start_year: 2014,
   end_year: 2014,
   thumbnail: "thumbnails/project08.png",
-  banner: "banners/project08.png"
+  banner: "banners/project08.png",
+  banner_height: "824px",
+  banner_bg_color: "#EFF1F4",
+  banner_text_color: "#3F454E",
+  banner_subtext_color: "#BCC0C7"
 )
 
 
@@ -217,7 +251,7 @@ Slide.create(
 )
 
 Slide.create(
-  title: "Requirements & use case definition",
+  title: "Requirement & use case definition",
   description: "Defined business requirements for minimally viable product features and produced use case backlog against requirements.",
   project_id: 6,
   image: "slides/project06_01.png"

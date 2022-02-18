@@ -1,16 +1,18 @@
 <div class="project-banner">
 
-  <div class="project-header">
-    <div class="project-show-container">
+
+  <div class="project-show-container">
+    <div class="project-header">
       <div class="project-header-left">
-        <%= @project.title %>
-        <%= @project.client_name %>
+        <h2 class="project-title"><%= @project.title %></h2>
+        <h3><%= @project.client_name %></h3>
       </div>
       <div class="project-header-right">
-        <%= @project.blurb %>
+        <h6><%= @project.blurb %></h6>
       </div>
     </div>
   </div>
+
 
   <div class="project-banner-image">
     <%= image_tag @project.banner %>
@@ -19,19 +21,19 @@
 </div>
 
 
-<div class="project-show-container">
+<div class="project-show-container page-background">
 
   <div class="project-details">
     <div class="project-details-left">
       <% if @project.start_year == @project.end_year %>
-        <%= @project.start_year %>
+        <h3><%= @project.start_year %></h3>
       <% else %>
-        <%= "#{@project.start_year}" + "-" + "#{@project.end_year}" %>
+        <h3><%= "#{@project.start_year}" + "-" + "#{@project.end_year}" %></h3>
       <% end %>
-      <%= @project.company %>
+      <h3><%= @project.company %></h3>
     </div>
     <div class="project-details-right">
-      <%= @project.description %>
+      <p><%= @project.description %></p>
     </div>
   </div>
 
@@ -42,7 +44,8 @@
           <%= image_tag slide.image %>
         </div>
         <div class="slide-grid-right">
-          <%= slide.description %>
+          <h5 class="slide-title"><%= slide.title %></h5>
+          <p><%= slide.description %></p>
         </div>
       </div>
     <% end %>

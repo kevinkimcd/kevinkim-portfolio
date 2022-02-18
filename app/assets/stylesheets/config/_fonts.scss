@@ -1,6 +1,111 @@
-p {
-  font-family: acumin-pro, sans-serif;
-  font-weight: 400;
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Black.ttf") format("ttf");
   font-style: normal;
-  font-size: 16px;
+  font-weight: 900;
 }
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-ExtraBold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Bold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-SemiBold.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Medium.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Regular.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Light.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-ExtraLight.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Thin.ttf") format("ttf");
+  font-style: normal;
+  font-weight: 100;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $text-default;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: $text-default;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
