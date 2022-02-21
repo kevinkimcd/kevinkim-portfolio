@@ -1,20 +1,35 @@
-<div class="project-banner">
+<% banner_height = @project.banner_height %>
+<% banner_bg_color = @project.banner_bg_color %>
+<% banner_text = @project.banner_text_color %>
+<% banner_subtext = @project.banner_subtext_color %>
+
+<div
+  class="project-banner"
+  style="background-color: <%= banner_bg_color %>;">
 
 
   <div class="project-show-container">
     <div class="project-header">
       <div class="project-header-left">
-        <h2 class="project-title"><%= @project.title %></h2>
-        <h3><%= @project.client_name %></h3>
+        <h2 class="project-title" style="color: <%= banner_text %>;"><%= @project.title %></h2>
+        <h3 style="color: <%= banner_subtext %>;"><%= @project.client_name %></h3>
       </div>
       <div class="project-header-right">
-        <h6><%= @project.blurb %></h6>
+        <h6 style="color: <%= banner_text %>;"><%= @project.blurb %></h6>
       </div>
     </div>
   </div>
 
 
-  <div class="project-banner-image">
+  <% upper_padding = @project.banner_upper_padding %>
+  <% lower_padding = @project.banner_lower_padding %>
+  <div
+    class="project-banner-image"
+    style="
+      padding-top: <%= upper_padding %>;
+      padding-bottom: <%= lower_padding %>;
+      height: <%= banner_height %>;"
+  >
     <%= image_tag @project.banner %>
   </div>
 

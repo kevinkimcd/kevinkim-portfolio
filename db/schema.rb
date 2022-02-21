@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_02_18_161118) do
+ActiveRecord::Schema[7.0].define(version: 2022_02_18_211528) do
   create_table "projects", force: :cascade do |t|
     t.string "title"
     t.string "client_name"
@@ -27,6 +27,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_02_18_161118) do
     t.string "banner_bg_color"
     t.string "banner_text_color"
     t.string "banner_subtext_color"
+    t.string "banner_lower_padding"
+    t.string "banner_upper_padding"
   end
 
   create_table "slides", force: :cascade do |t|

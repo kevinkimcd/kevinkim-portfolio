@@ -14,10 +14,10 @@ Project.create(
   banner: "banners/project01.png",
   banner_height: "640px",
   banner_bg_color: "#f2f2f2",
-  banner_text_color: "$text-default",
-  banner_subtext_color: "$text-unfocused"
-  # banner_upper_padding: ,
-  # banner_lower_padding: ,
+  banner_text_color: "#333333",
+  banner_subtext_color: "#c9c9c9",
+  banner_upper_padding: "240px",
+  banner_lower_padding: "88px"
 )
 
 Project.create(
@@ -35,7 +35,9 @@ Project.create(
   banner_height: "512px",
   banner_bg_color: "#242A33",
   banner_text_color: "#D7E3F4",
-  banner_subtext_color: "#46525F"
+  banner_subtext_color: "#46525F",
+  banner_upper_padding: "240px",
+  banner_lower_padding: "200px"
 )
 
 Project.create(
@@ -53,7 +55,9 @@ Project.create(
   banner_height: "712px",
   banner_bg_color: "#E2EDED",
   banner_text_color: "#063636",
-  banner_subtext_color: "#A9C7C7"
+  banner_subtext_color: "#A9C7C7",
+  banner_upper_padding: "96px",
+  banner_lower_padding: "128px"
 )
 
 Project.create(
@@ -69,7 +73,9 @@ Project.create(
   banner_height: "600px",
   banner_bg_color: "#EFF1F4",
   banner_text_color: "#414953",
-  banner_subtext_color: "#B5BCC6"
+  banner_subtext_color: "#B5BCC6",
+  banner_upper_padding: "278px",
+  banner_lower_padding: "278px"
 )
 
 Project.create(
@@ -85,7 +91,9 @@ Project.create(
   banner_height: "600px",
   banner_bg_color: "#C9D7DE",
   banner_text_color: "#21333C",
-  banner_subtext_color: "#96AFBE"
+  banner_subtext_color: "#96AFBE",
+  banner_upper_padding: "216px",
+  banner_lower_padding: "216px"
 )
 
 Project.create(
@@ -103,7 +111,9 @@ Project.create(
   banner_height: "864px",
   banner_bg_color: "#DDD8D8",
   banner_text_color: "#2E1616",
-  banner_subtext_color: "#725D5D"
+  banner_subtext_color: "#725D5D",
+  banner_upper_padding: "0px",
+  banner_lower_padding: "0px"
 )
 
 Project.create(
@@ -121,7 +131,9 @@ Project.create(
   banner_height: "864px",
   banner_bg_color: "#2F2F2F",
   banner_text_color: "#FFFFFF",
-  banner_subtext_color: "#888888"
+  banner_subtext_color: "#888888",
+  banner_upper_padding: "-168px",
+  banner_lower_padding: "0px"
 )
 
 Project.create(
@@ -139,7 +151,9 @@ Project.create(
   banner_height: "824px",
   banner_bg_color: "#EFF1F4",
   banner_text_color: "#3F454E",
-  banner_subtext_color: "#BCC0C7"
+  banner_subtext_color: "#BCC0C7",
+  banner_upper_padding: "168px",
+  banner_lower_padding: "152px"
 )
 
 
