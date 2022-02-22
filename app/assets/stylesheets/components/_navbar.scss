@@ -1,0 +1,30 @@
+@import "config/colors";
+@import "config/fonts";
+
+.navbar-container {
+  padding: 36px 0;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  margin: 0 auto;
+}
+
+.navbar-link {
+  list-style-type: none;
+  a {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: $text-default;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+}

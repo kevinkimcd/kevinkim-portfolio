@@ -1,0 +1,2 @@
+class Musing < ApplicationRecord
+end
