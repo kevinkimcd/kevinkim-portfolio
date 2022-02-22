@@ -16,6 +16,12 @@
 
 // TODO: expand grid to 3 max, responsively change to 2 and 1 for smaller screens
 
+@media only screen and (min-width: 1200px) {
+  .project-grid-container {
+    grid-template-columns: repeat(3, 366px);
+  }
+}
+
 .project-grid-container {
   display: grid;
   grid-template-columns: repeat(2, 366px);
@@ -50,7 +56,7 @@
 .project-show-container {
   margin: 0 auto;
   width: 100%;
-  padding: 240px 15vw 0px 15vw;
+  padding: 240px 20vw 0px 20vw;
   -webkit-box-sizing: border-box; 
   -moz-box-sizing: border-box;    
   box-sizing: border-box;   
@@ -101,6 +107,15 @@
 
 .project-details-left {
   min-width: 184px;
+  color: $text-unfocused;
+}
+
+.project-years {
+  margin-top: 8px;
+}
+
+.company-name {
+  margin-top: 8px;
 }
 
 .project-details-right {
