@@ -21,11 +21,26 @@
   a {
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1;
     color: $text-default;
     margin: 0;
     padding: 0;
     text-decoration: none;
   }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-link {
+   a {
+    font-size: 14px;
+   } 
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .navbar-link {
+    a {
+     font-size: 12px;
+    } 
+   }
 }
