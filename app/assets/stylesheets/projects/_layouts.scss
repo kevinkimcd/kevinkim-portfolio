@@ -4,217 +4,422 @@
 
 .project-index-container {
   margin: 0 auto;
-  padding: 240px 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.intro-text {
-  margin-bottom: 240px;
-}
 
 @media only screen and (min-width: 1600px) {
+  .intro-text {
+    margin-bottom: 120px;
+  }
+
   .project-index-container {
     width: 1200px;
+    padding: 240px 0;
   }
 
   .project-grid-container {
     grid-template-columns: repeat(3, 320px);
+    margin-top: 240px;
+    row-gap: 96px;
   }
 
   .project-grid-item {
     height: auto;
     img {
       width: 320px;
+      margin-bottom: 8px;
     }
   }
 }
 
 @media only screen and (min-width: 1080px) and (max-width: 1599px) {
+  .intro-text {
+    margin-bottom: 120px;
+  }
+
   .project-index-container {
     width: 800px;
+    padding: 240px 0;
   }
 
   .project-grid-container {
     grid-template-columns: repeat(2, 320px);
+    margin-top: 240px;
+    row-gap: 96px;
   }
 
   .project-grid-item {
     height: auto;
     img {
       width: 320px;
+      margin-bottom: 8px;
     }
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1079px) {
+  .intro-text {
+    margin-bottom: 120px;
+  }
+  
   .project-index-container {
     width: 584px;
+    padding: 200px 0;
   }
 
   .project-grid-container {
     grid-template-columns: repeat(2, 240px);
+    margin-top: 240px;
+    row-gap: 96px;
   }
 
   .project-grid-item {
     height: auto;
     img {
       width: 240px;
+      margin-bottom: 8px;
     }
   }
 }
 
 @media only screen and (min-width: 560px) and (max-width: 767px) {
+  .intro-text {
+    margin-bottom: 80px;
+  }
+  
   .project-index-container {
     width: 384px;
+    padding: 160px 0;
   }
 
   .project-grid-container {
     grid-template-columns: repeat(1, 240px);
+    margin-top: 120px;
+    row-gap: 48px;
   }
 
   .project-grid-item {
     height: auto;
     img {
       width: 384px;
+      margin-bottom: 4px;
     }
   }
 }
 
 
 @media only screen and (min-width: 0px) and (max-width: 559px) {
+  .intro-text {
+    margin-bottom: 64px;
+  }
+  
   .project-index-container {
     width: 240px;
+    padding: 160px 0;
   }
 
   .project-grid-container {
     grid-template-columns: repeat(1, 240px);
+    margin-top: 120px;
+    row-gap: 48px;
   }
 
   .project-grid-item {
     height: auto;
     img {
       width: 240px;
+      margin-bottom: 4px;
     }
   }
 }
 
 .project-grid-container {
   display: grid;
-  row-gap: 96px;
-  margin-top: 240px;
   justify-content: space-between;
 }
 
 .project-grid-item {
   height: auto;
-  img {
-    margin-bottom: 8px;
-  }
   :hover {
     text-decoration: underline;
   }
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
-// CSS for show: banner is below
+// CSS for show (upper banner portion)
 
-.project-show-container {
-  margin: 0 auto;
-  width: 100%;
-  padding: 240px 20vw 0px 20vw;
-  -webkit-box-sizing: border-box; 
-  -moz-box-sizing: border-box;    
-  box-sizing: border-box;   
-}
 
-.project-header {
-  display: flex;
-  justify-content: space-between;
-}
+@media only screen and (min-width: 1440px) {
+  .project-show-container {
+    width: 960px;
+  }
 
-.project-header-left {
-  width: 366px;
-}
-
-.project-title {
-  margin-bottom: 8px;
-}
-
-.project-header-right {
-  width: 366px;
-}
-
-.project-banner-image {
-  position: relative;
-  overflow: hidden;
-  img {
-    transform: scale(0.5,0.5);
-    position: absolute;
-    top: -9999px;
-    bottom: -9999px;
-    left: -9999px;
-    right: -9999px;
-    margin: auto;
+  .slide-grid-item {
+    img {
+      width: 400px;
+    }
+  }
+  .project-details-left {
+    min-width: 184px;
+    color: $text-unfocused;
   }
 }
 
-// CSS for below-banner section is below
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+  .project-show-container {
+    width: 840px;
+  }
 
-.page-background {
-  background-color: $background-gray;
+  .slide-grid-item {
+    img {
+      width: 360px;
+    }
+  }
+  .project-details-left {
+    min-width: 184px;
+    color: $text-unfocused;
+  }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1079px) {
+  .project-show-container {
+    width: 640px;
+  }
 
-.project-details {
-  display: flex;
-  justify-content: space-between;
+  .slide-grid-item {
+    img {
+      width: 280px;
+    }
+  }
+  .project-details-left {
+    min-width: 160px;
+    color: $text-unfocused;
+  }
 }
 
-.project-details-left {
-  min-width: 184px;
-  color: $text-unfocused;
-}
-
-.project-years {
-  margin-top: 8px;
-}
-
-.company-name {
-  margin-top: 8px;
-}
-
-.project-details-right {
-  border-style: solid;
-  border-width: 0 0 0 1px;
-  border-color: $text-unfocused;
-  padding-left: 48px;
-}
-
-
-// CSS for slides is below
-
-.slide-grid-background {
-  background-color: $background-gray;
-}
-
-.slide-grid-container {
-  margin: 240px 0 0 0;
-}
-
-.slide-grid-item {
-  margin-top: 128px; 
-  img {
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+  .project-show-container {
     width: 480px;
   }
-  display: flex;
+
+  .slide-grid-item {
+    img {
+      width: 240px;
+    }
+  }
+  .project-details-left {
+    min-width: 144px;
+    color: $text-unfocused;
+  }
 }
 
-.slide-grid-right {
-  margin-left: 56px;
+/////////////////////////////////////////////////////////////////////////////////////////////////
+// CSS for mobile show layout
+
+@media only screen and (min-width: 0px) and (max-width: 559px) {
+
+  .project-show-container {
+    margin: 0 auto;
+    padding: 160px 0 0 0;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;   
+  }
+  
+  .project-header {
+    display: inline;
+    width: 240px;
+  }
+
+  .project-header-right {
+    margin-top: 48px;
+  }
+  
+  
+  .project-title {
+    margin-bottom: 8px;
+  }
+  
+  .project-banner-image {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    max-height: 320px;
+    padding: 60px 0 60px 0 !important;
+    margin-top: 60px;
+    img {
+      transform: scale(0.25,0.25);
+      position: absolute;
+      top: -9999px;
+      bottom: -9999px;
+      left: -9999px;
+      right: -9999px;
+      margin: auto;
+    }
+  }
+  
+  // CSS for below-banner section is below
+  
+  .page-background {
+    background-color: $background-gray;
+  }
+  
+  
+  .project-details {
+    display: inline;
+    color: $text-unfocused;
+  }
+  
+  .company-name {
+    margin-top: 4px;
+    margin-bottom: 16px;
+  }
+  
+  .project-details-right {
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: $text-unfocused;
+    padding-top: 16px;
+  }
+  
+  
+  // CSS for slides is below
+  
+  .slide-grid-background {
+    background-color: $background-gray;
+  }
+  
+  .slide-grid-container {
+    margin: 32px 0 0 0;
+  }
+  
+  .slide-grid-item {
+    margin-top: 128px; 
+    display: inline;
+  }
+  
+  .slide-grid-left {
+    margin-top: 128px;
+  }
+  
+  .slide-title {
+    margin-bottom: 8px;
+  }
+
+  .project-show-container {
+    width: 240px;
+  }
+
+  .slide-grid-item {
+    img {
+      width: 240px;
+      margin-bottom: 16px;
+    }
+  }
+  .project-details-left {
+    color: $text-unfocused;
+  }
 }
 
-.slide-title {
-  margin-bottom: 8px;
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// CSS for desktop show layout
+
+@media only screen and (min-width: 560px) {
+
+  .project-show-container {
+    margin: 0 auto;
+    padding: 240px 0 0 0;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;   
+  }
+
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project-header-left {
+    width: 366px;
+  }
+
+  .project-title {
+    margin-bottom: 8px;
+  }
+
+  .project-header-right {
+    width: 366px;
+  }
+
+  .project-banner-image {
+    position: relative;
+    overflow: hidden;
+    img {
+      transform: scale(0.5,0.5);
+      position: absolute;
+      top: -9999px;
+      bottom: -9999px;
+      left: -9999px;
+      right: -9999px;
+      margin: auto;
+    }
+  }
+
+  // CSS for below-banner section is below
+
+  .page-background {
+    background-color: $background-gray;
+  }
+
+
+  .project-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project-details-left {
+    color: $text-unfocused;
+  }
+
+  .project-years {
+    margin-top: 8px;
+  }
+
+  .company-name {
+    margin-top: 8px;
+  }
+
+  .project-details-right {
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    border-color: $text-unfocused;
+    padding-left: 48px;
+  }
+
+
+  // CSS for slides is below
+
+  .slide-grid-background {
+    background-color: $background-gray;
+  }
+
+  .slide-grid-container {
+    margin: 240px 0 0 0;
+  }
+
+  .slide-grid-item {
+    margin-top: 128px; 
+    display: flex;
+  }
+
+  .slide-grid-right {
+    margin-left: 56px;
+  }
+
+  .slide-title {
+    margin-bottom: 8px;
+  }
 }

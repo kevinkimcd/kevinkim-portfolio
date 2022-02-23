@@ -35,36 +35,37 @@
 
 </div>
 
+<div class="page-background">
+  <div class="project-show-container">
 
-<div class="project-show-container page-background">
-
-  <div class="project-details">
-    <div class="project-details-left">
-      <% if @project.start_year == @project.end_year %>
-        <h3 class="project-years"><%= @project.start_year %></h3>
-      <% else %>
-        <h3 class="project-years"><%= "#{@project.start_year}" + "-" + "#{@project.end_year}" %></h3>
-      <% end %>
-      <h3 class="company-name"><%= @project.company %></h3>
-    </div>
-    <div class="project-details-right">
-      <p><%= @project.description %></p>
-    </div>
-  </div>
-
-  <div class="slide-grid-container">
-    <% @slides.each do |slide| %>
-      <div class="slide-grid-item">
-        <div class="slide-grid-left">
-          <%= image_tag slide.image %>
-        </div>
-        <div class="slide-grid-right">
-          <h5 class="slide-title"><%= slide.title %></h5>
-          <p><%= slide.description %></p>
-        </div>
+    <div class="project-details">
+      <div class="project-details-left">
+        <% if @project.start_year == @project.end_year %>
+          <h3 class="project-years"><%= @project.start_year %></h3>
+        <% else %>
+          <h3 class="project-years"><%= "#{@project.start_year}" + "-" + "#{@project.end_year}" %></h3>
+        <% end %>
+        <h3 class="company-name"><%= @project.company %></h3>
       </div>
-    <% end %>
+      <div class="project-details-right">
+        <p><%= @project.description %></p>
+      </div>
+    </div>
+
+    <div class="slide-grid-container">
+      <% @slides.each do |slide| %>
+        <div class="slide-grid-item">
+          <div class="slide-grid-left">
+            <%= image_tag slide.image %>
+          </div>
+          <div class="slide-grid-right">
+            <h5 class="slide-title"><%= slide.title %></h5>
+            <p><%= slide.description %></p>
+          </div>
+        </div>
+      <% end %>
+
+    </div>
 
   </div>
-
-</div>
+</div>  
