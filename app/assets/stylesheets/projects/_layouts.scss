@@ -52,11 +52,6 @@
 }
 
 // CSS for show: banner is below
-// to-do: figure out how to get the background image to sit above the background color, but all of it below the navbar
-
-.project-banner {
-  
-}
 
 .project-show-container {
   margin: 0 auto;
@@ -95,7 +90,6 @@
     left: -9999px;
     right: -9999px;
     margin: auto;
-    z-index: -99;
   }
 }
 

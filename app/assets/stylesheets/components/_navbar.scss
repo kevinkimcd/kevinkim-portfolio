@@ -2,10 +2,11 @@
 @import "config/fonts";
 
 .navbar-container {
-  padding: 36px 0;
+  padding: 24px 0;
   width: 100%;
   position: fixed;
   margin: 0;
+  z-index: 99;
 }
 
 .navbar-links {
