@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_02_22_163528) do
+ActiveRecord::Schema[7.0].define(version: 2022_03_14_144751) do
+  create_table "contents", force: :cascade do |t|
+    t.text "text_content"
+    t.string "image"
+    t.integer "musing_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "position"
+    t.index ["musing_id"], name: "index_contents_on_musing_id"
+  end
+
   create_table "musings", force: :cascade do |t|
     t.string "title"
     t.string "subtitle"
@@ -49,5 +59,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_02_22_163528) do
     t.index ["project_id"], name: "index_slides_on_project_id"
   end
 
+  add_foreign_key "contents", "musings"
   add_foreign_key "slides", "projects"
 end
