@@ -1,11 +1,16 @@
-.footer-container {
-  h6 {
-    color: #333333;
-  }
+.footer {
   background-color: #f0f0f0;
-  padding: 80px 30vw;
-  display: flex;
-  justify-content: space-between;
+}
+
+#footer-header {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #333333;
+}
+
+.footer-container {
+  margin: 0 auto;
+  padding: 80px 0;
 
   ul {
   margin: 0;
@@ -17,16 +22,90 @@
 
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   color: #888888;
-
 }
 
-.footer-left {
+@media only screen and (min-width: 1600px) {
+  .footer-container {
+    width: 800px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
 
+  #footer-header {
+    font-size: 16px;
+  }
+
+  .footer-right {
+    width: 60%;
+  }
 }
 
-.footer-right {
-  width: 20vw;
+@media only screen and (min-width: 1080px) and (max-width: 1599px) {
+  .footer-container {
+    width: 800px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #footer-header {
+    font-size: 16px;
+  }
+
+  .footer-right {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1079px) {
+  .footer-container {
+    width: 584px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #footer-header {
+    font-size: 16px;
+  }
+
+  .footer-right {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+  .footer-container {
+    width: 384px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #footer-header {
+    font-size: 12px;
+  }
+
+  .footer-right {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 559px) {
+  .footer-container {
+    width: 240px;
+    font-size: 12px;
+  }
+
+  #footer-header {
+    font-size: 12px;
+  }
+
+  .footer-right {
+    padding-top: 40px;
+    width: 100%;
+  }
 }

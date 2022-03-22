@@ -319,3 +319,230 @@ Slide.create(
   project_id: 8,
   image: "slides/project08_02.png"
 )
+
+
+# seed for musings starts here
+
+Musing.create (
+  title: "Hotel brands have a brand identity problem"
+)
+
+Musing.create(
+  title: "UI cross-platform inconsistencies"
+)
+
+Content.create(
+  text_content: "As a consultant, I’ve spent my fair share of time in hotels over the years. I’ve frequented properties from all of the major hotel chains, although the bulk of my stays have been under the Marriott umbrella.
+
+  Like most frequent travelers, I’ve developed a preference towards certain brands and will proactively seek them out when traveling. If I’m on vacation and I want to splurge with points, I know to look for a St. Regis or a Luxury Collection property. If I’m traveling for business, I know that most larger cities will have a Marriott or Sheraton property that are reasonably priced for a few nights’ stay.
+  
+  But over the years, I’ve observed that the same brand can offer a drastically different experience depending on the specific property. For instance, take a look at the two Sheraton properties below.",
+  musing_id: 1,
+  position: 1
+)
+
+Content.create(
+  image: "musings/01-hotels/01-sheraton.png",
+  text_content: "Sheraton Austin Hotel at the Capitol",
+  musings_id: 1,
+  position: 2
+)
+
+Content.create(
+  image: "musings/01-hotels/02-sheraton.png",
+  text_content: "Sheraton Los Angeles San Gabriel",
+  musing_id: 1,
+  position: 3
+)
+
+Content.create(
+  text: "This is a fairly even comparison, looking at two Sheraton properties in large metropolitan areas in the United States. The images show the sleeping areas and bathrooms of the same room type (standard king guest room). But visually, there’s clearly a huge difference in the interiors. One looks modern, while the other looks rather dated. The only similarities I can see between the two properties is the bedding and the general shape of the lamp shades. If we broaden our scope internationally, we see even more striking differences.",
+  musing_id: 1,
+  position: 4
+)
+
+Content.create(
+  image: "musings/01-hotels/03-sheraton.png",
+  text_content: "Sheraton Hua Hin Pranburi Villas (Thailand)",
+  musing_id: 1,
+  position: 5
+)
+
+Content.create(
+  text_content: "The above is a Sheraton property in Thailand, which is comprised entirely of villas. Based on the pictures, it looks like every room features some sort of outdoor space and pool, clearly a far cry from the average Sheraton. Yet somehow, this luxurious property shares a name with the two other Sheraton properties mentioned above, and countless others like them.
+
+  It’s a common practice for hotels to be owned by franchisees and management companies that pay to license a chain’s branding and assets, so it is not necessarily the Marriott company that gives the direction to open these vastly different Sheraton properties. But in allowing so much variation across properties that use the same brand, it dilutes the brand identity to the point where the brand communicates very little to the consumer.
+  
+  The problem has to do with some of the primary factors that go into a person’s decision making process when choosing a hotel — perceived quality and value. To me, this is where most hotel brands fall short. The quality and value of a hotel brand can vary so much from property to property that the brand is no longer an effective barometer for my decision making. It seems like hotel brands have a checklist of features that qualify it to be part of a that brand (e.g., all Sheraton properties must have a lounge, all W Hotel properties must use Momo brand bath products). But as a hotel guest, I don’t measure my experience based solely on a binary checklist — if a hotel claims to have a gym but only has 3 cardio machines in a small space (a real experience I’ve had in multiple hotel “gyms”), it doesn’t fulfill my needs as a gym. In this situation, the amenity may as well not exist for me.
+  
+  When I travel to a new city now, I look at photos and reviews of each property before selecting one because I don’t know what I would be getting based on the brand alone. Without doing this research, I have no idea if a Sheraton property has rooms that have been renovated or if they have dated interiors from decades ago. As a consumer, this extra effort largely defeats the purpose of maintaining an international hotel brand in the first place.
+  
+  What’s particularly baffling is that as of this writing, there are over 30 brands under the Marriott umbrella. You would think that with so many brands, each one would attempt to carve out a specific niche that is unique to that brand. But in my experience, there is so much overlap between these brands that it begs to question what purpose some of them serve.",
+  musing_id: 1,
+  position: 6
+)
+
+Content.create(
+  image: "musings/01-hotels/04-hotelbrands.png",
+  text_content: "Sheraton Hua Hin Pranburi Villas (Thailand)",
+  musing_id: 1,
+  position: 7
+)
+
+Content.create(
+  text_content: "According to the above chart, Westin properties fall under the “Premium” category, while Courtyard properties fall under “Select.” As I interpret it, guests at Westin properties should expect a more premium experience, while those at Courtyard properties should expect fewer frills. Let’s take a look at a Westin and Courtyard located in Seattle.",
+  musing_id: 1,
+  position: 8
+)
+
+Content.create(
+  image: "musings/01-hotels/05-westin.png",
+  text_content: "Westin Seattle",
+  musing_id: 1,
+  position: 9
+)
+
+Content.create(
+  image: "musings/01-hotels/06-courtyard.png",
+  text_content: "Courtyard Downtown Seattle / South Lake Union",
+  musing_id: 1,
+  position: 10
+)
+
+Content.create(
+  text_content: "This may be subjective, but the Westin does not appear more premium to me at all. If anything, I would even give a slight edge to the Courtyard, particularly the bathroom. Perhaps the Westin has certain items in its checklist that allow it to technically claim they have more amenities (e.g., a full service restaurant, a swimming pool), but does the presence of an amenity automatically qualify a property to be more premium? I would say no, especially if that property is clearly more dated in other, more important areas, such as the actual guest room and bathroom. If you were to show someone these two properties side by side and ask them which is the “Premium” one, my guess is that most people would choose the Courtyard over the Westin.
+
+  What’s the point in categorizing the Westin brand as a “Premium” category hotel, when they can be outclassed by certain properties in the “Select” category? There’s little value in a premium brand that offers a truly premium experience in some properties and subpar one in others, both to the hotel and the prospective guest.
+  
+  To be clear, I’ve encountered these problems of brand inconsistency from all of the major hotel chains, not just Marriott. There is obviously no quick and simple solution for hotel chains to address the aforementioned branding inconsistencies, given that there are thousands of properties around the world that are run by external management companies. To start, perhaps it is time for Marriott and others to apply a stricter set of guidelines around each of its brands for new properties. As for existing properties, it wouldn’t be financially feasible for all of them to undergo expensive renovations to align with new brand principles. A cheaper stopgap solution may be to rebrand existing properties based on how they align with stricter brand guidelines. Here’s my take on the Marriott properties mentioned in this post (judging them as they currently are), grouping them into the broader classes rather than specific brands:",
+  musing_id: 1,
+  position: 11
+)
+
+Content.create(
+  text_content: "A brand is not just a name or a logo, it’s a powerful signal to the consumer of what sort of experience to expect. If every experience I have within a hotel brand is inconsistent, then that’s a rather confusing signal without much purpose, and all of the resources that go into developing the brand are unfortunately being watered down. I believe all hotel chains should put a much greater focus on defining each of their brands with perceivable characteristics that are consistent across all of a brand’s properties. If there is ever a day where I am able to travel to a new city, book a stay at a Westin sight unseen, and be completely certain that I am having a more “premium” experience there than if I were to have stayed at the Courtyard a few blocks over, I will know they have succeeded.",
+  musing_id: 1,
+  position: 12
+)
+
+Content.create(
+  text_content: "I find myself on YouTube quite often throughout the day. If I’m not actively watching a clip from a late night show or a performance from a musical artist, I’m often on the platform playing a live news broadcast or lo-fi music station in the background while I do other things. Depending on where I am, I could be on the YouTube app on my TV, on my smartphone, or on my desktop web browser.
+
+  We take it for granted that our favorite apps work seamlessly across our devices, but the reality is that a lot of work goes behind making this possible. Adapting an app to work both on a large desktop monitor as well as a small smartphone screen, each with differing input methods, requires a lot of UX/UI optimizations and variant journey flows. For instance, the YouTube app on my iPhone places navigational elements on the bottom of the page in the form of a tab bar, within easy reach of my thumbs. The web app, on the other hand, has a more traditional desktop layout with a navbar on the left (and a secondary one on top).",
+  musing_id: 2,
+  position: 1
+)
+
+Content.create(
+  image: "musings/02-ui-cross-platform/01-youtube.png",
+  text_content: "Web app (left), iOS app (right)",
+  musing_id: 2,
+  position: 2
+)
+
+Content.create(
+  text_content: "Setting aside these obvious and intentional cross-platform differences in UX/UI, I’ve observed some puzzling inconsistencies lately in certain apps. These are apps that look very alike on different devices, but have inexplicable differences in certain functions. Here is an example with Netflix:",
+  musing_id: 2,
+  position: 3
+)
+
+Content.create(
+  image: "musings/02-ui-cross-platform/02-netflix.png",
+  text_content: "iPadOS app (left), web app (right)",
+  musing_id: 2,
+  position: 4
+)
+
+Content.create(
+  text_content: "On the surface, the Netflix experience on an iPad and a desktop web browser look very similar. The iPad app does stand out in that it utilizes a tab bar on the bottom, but the rest of the UI elements are almost exactly the same. Both versions feature horizontally scrolling video carousels with navigational elements placed at the top.
+
+  I came across the following issue while I was on the iPad app. I wanted to make an update to my billing information, so I instinctively tapped on my avatar icon on the top right, thinking that the account settings would be found there. Instead, tapping on the avatar revealed just the profiles associated with my account, allowing me to swap between profiles and nothing more.",
+  musing_id: 2,
+  position: 5
+)
+
+Content.create(
+  image: "musings/02-ui-cross-platform/03-netflix.png",
+  text_content: "Avatar icon on the landing page (left) and what you see when you tap it (right)",
+  musing_id: 2,
+  position: 6
+)
+
+Content.create(
+  text_content: "Undeterred, I tried the “More” menu button on the bottom tab bar, and sure, enough I saw an option to view my Account there. I tapped on “Account,” and was directed to visit the web version of Netflix to view my account settings. Maybe not the most user-friendly experience, but I won’t go into that today (maybe in a separate post). Still on my iPad, I flipped over to my browser to visit the web version of Netflix.",
+  musing_id: 2,
+  position: 7
+)
+
+Content.create(
+  image: "musings/02-ui-cross-platform/04-netflix.png",
+  text_content: "\“More\” icon on landing page (left) and what you see when you tap it (right)",
+  musing_id: 2,
+  position: 8
+)
+
+Content.create(
+  text_content: "As mentioned above, the web version looked strikingly similar to the iPad version, but without the tab bar on the bottom. The problem was, the account settings in the iPad app was located precisely within that tab bar. Past experience told me that the avatar icon would only show the Profiles, nothing more, nothing less. But without any other visual cues as to where the settings would be, I moved my mouse over to the avatar icon anyway. To my surprise, hovering over the avatar did in fact reveal my account settings.",
+  musing_id: 2,
+  position: 9
+)
+
+Content.create(
+  image: "musings/02-ui-cross-platform/05-netflix.png",
+  text_content: "Menu with account options in view when hovering over avatar icon",
+  musing_id: 2,
+  position: 10
+)
+
+Content.create(
+  text_content: "This brings me to my main point — an app should not be visually identical on two different platforms if there are small (but impactful) differences in the UI. This is especially true if an app reroutes a user to another platform to complete a journey. From a user experience perspective, it would have made much more sense to have the iPad app exhibit the same behavior as the web app when interacting with the avatar icon (i.e., show the full list of options rather than showing only the Profiles).
+
+  This is not a problem specific to Netflix. I found examples on other apps as well, where an app looks identical on two different platforms but contains confusing inconsistencies. Compare the tvOS and iPadOS apps for HBO Max — the visual resemblance and similar UI layouts are clear. The navigation bar is on the left, albeit positioned much higher on the iPad, with horizontally scrolling carousels in the primary frame.",
+  musing_id: 2,
+  position: 11
+)
+
+Content.create(
+  image: "musings/02-ui-cross-platform/06-hbo.png",
+  text_content: "tvOS app (left), iPadOS app (right)",
+  musing_id: 2,
+  position: 12
+
+Content.create(
+  text_content: "The tvOS app contains a “Hubs” button in the navbar that allows a user to see titles associated with specific studios or collections (e.g., DC Comics). The iPad app has a similar navbar on the left, but no button for “Hubs.” I assumed the “Hubs” button would be located within the hamburger menu, but didn’t find it there. It wasn’t until I scrolled down the long list of genres that I found the ten collections.",
+  musing_id: 2,
+  position: 13
+)
+
+Content.create(
+  image: "musings/02-ui-cross-platform/07-hbo.png",
+  text_content: "tvOS app reveals Hubs with one tap of the side menu",
+  musing_id: 2,
+  position: 14
+)
+
+Content.create(
+  image: "musings/02-ui-cross-platform/08-hbo.png",
+  text_content: "iPadOS app requires a tap on the hamburger menu, then scrolling down several frames to find the Hubs collections",
+  musing_id: 2,
+  position: 15
+)
+
+Content.create(
+  text_content: "If you take a closer look at the menus and submenus, the inconsistencies become even more complex. The below diagram represents the difference in how the tvOS and iPad app menus are organized. Keeping in mind that on the surface, the apps look visually similar!",
+  musing_id: 2,
+  position: 16
+)
+
+Content.create(
+  image: "musings/02-ui-cross-platform/09-hbo.png",
+  text_content: "Simplified HBO Max menu trees on tvOS and iPadOS (categories such as Just Added, Coming Soon, have been aggregated into \“Categories\”)",
+  musing_id: 2,
+  position: 17
+)
+
+Content.create(
+  text_content:"As someone who is fairly tech savvy, I’m able to adapt quickly and navigate through these inconsistencies with very low effort. But good design should aim to create a simple experience for everyone, not just power users. The problem in the above examples is not that the apps don’t function exactly the same way — user experiences can and often should be adapted to optimize against the size of the display and the input method. The problem is that these apps built for different platforms look nearly the same but function slightly differently, resulting in a suboptimal user experience. If the UIs for these apps need to be adapted to different platforms, these variations should always be crafted meaningfully with specific purpose, with no element placed by chance.",
+  musing_id: 2,
+  position: 18
+)
