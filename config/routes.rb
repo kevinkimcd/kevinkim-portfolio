@@ -9,5 +9,5 @@ Rails.application.routes.draw do
   get "projects/:id", to: "projects#show", as: :project
   
   get "musings/index", to: "musings#index", as: :musings
-  get "musings/show", to: "musings#show", as: :musing
+  get "musings/:id", to: "musings#show", as: :musing
 end

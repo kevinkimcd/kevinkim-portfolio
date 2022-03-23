@@ -323,12 +323,14 @@ Slide.create(
 
 # seed for musings starts here
 
-Musing.create (
-  title: "Hotel brands have a brand identity problem"
+Musing.create(
+  title: "Hotel brands have a brand identity problem",
+  image: "musings/01-hotels/00-thumbnail.png"
 )
 
 Musing.create(
-  title: "UI cross-platform inconsistencies"
+  title: "UI cross-platform inconsistencies",
+  image: "musings/02-ui-cross-platform/00-thumbnail.png"
 )
 
 Content.create(
@@ -344,7 +346,7 @@ Content.create(
 Content.create(
   image: "musings/01-hotels/01-sheraton.png",
   text_content: "Sheraton Austin Hotel at the Capitol",
-  musings_id: 1,
+  musing_id: 1,
   position: 2
 )
 
@@ -356,7 +358,7 @@ Content.create(
 )
 
 Content.create(
-  text: "This is a fairly even comparison, looking at two Sheraton properties in large metropolitan areas in the United States. The images show the sleeping areas and bathrooms of the same room type (standard king guest room). But visually, there’s clearly a huge difference in the interiors. One looks modern, while the other looks rather dated. The only similarities I can see between the two properties is the bedding and the general shape of the lamp shades. If we broaden our scope internationally, we see even more striking differences.",
+  text_content: "This is a fairly even comparison, looking at two Sheraton properties in large metropolitan areas in the United States. The images show the sleeping areas and bathrooms of the same room type (standard king guest room). But visually, there’s clearly a huge difference in the interiors. One looks modern, while the other looks rather dated. The only similarities I can see between the two properties is the bedding and the general shape of the lamp shades. If we broaden our scope internationally, we see even more striking differences.",
   musing_id: 1,
   position: 4
 )
@@ -507,6 +509,7 @@ Content.create(
   text_content: "tvOS app (left), iPadOS app (right)",
   musing_id: 2,
   position: 12
+)
 
 Content.create(
   text_content: "The tvOS app contains a “Hubs” button in the navbar that allows a user to see titles associated with specific studios or collections (e.g., DC Comics). The iPad app has a similar navbar on the left, but no button for “Hubs.” I assumed the “Hubs” button would be located within the hamburger menu, but didn’t find it there. It wasn’t until I scrolled down the long list of genres that I found the ten collections.",

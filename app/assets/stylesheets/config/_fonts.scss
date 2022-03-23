@@ -92,6 +92,16 @@
     margin: 0;
     padding: 0;
   }
+
+  h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: $dark-gray;
+  }
   
   h5 {
     font-family: "Inter", sans-serif;
@@ -119,8 +129,18 @@
     color: $text-default;
     margin: 0;
     padding: 0;
-    // text-decoration: none;
   }
+
+  #musing-date {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1;
+    margin: 8px 0 0 0;
+    padding: 0;
+    color: $text-unfocused
+  }
+
 }  
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -153,6 +173,16 @@
     margin: 0;
     padding: 0;
   }
+
+  h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: $dark-gray;
+  }
   
   h5 {
     font-family: "Inter", sans-serif;
@@ -180,6 +210,16 @@
     color: $text-default;
     margin: 0;
     padding: 0;
-    // text-decoration: none;
   }
+
+  #musing-date {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 1;
+    margin: 4px 0 0 0;
+    padding: 0;
+    color: $text-unfocused
+  }
+
 }  

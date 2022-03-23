@@ -1,7 +1,20 @@
 <div class="musings-container">
   <h2>Musings</h2>
-  <h3 id="musings-index-subtitle">A collection of my thoughts and opinions on product design, user experience, and corporate brand identity.</h3>
+  <h4 id="musings-index-subtitle">A collection of my thoughts and opinions on product design, user experience, and corporate brand identity.</h4>
 
   <div class="musings-grid-container">
+    <% @musings.each do |musing| %>
+      <div class="musings-grid-item">
+        <%= link_to musing_path(musing), class:"musings-link" do %>
+          <%= image_tag "#{musing.image}", id:"musing-thumbnail" %>
+          <div id="musing-title">
+            <%= musing.title %>
+          </div>
+        <% end %>
+        <div id="musing-date">
+          <%= musing.created_at.strftime("%B %e, %Y") %>
+        </div>
+      </div>
+    <% end %>
   </div>
 </div>
