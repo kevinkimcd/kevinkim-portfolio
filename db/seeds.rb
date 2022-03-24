@@ -334,9 +334,7 @@ Musing.create(
 )
 
 Content.create(
-  text_content: "As a consultant, I’ve spent my fair share of time in hotels over the years. I’ve frequented properties from all of the major hotel chains, although the bulk of my stays have been under the Marriott umbrella.
-
-  Like most frequent travelers, I’ve developed a preference towards certain brands and will proactively seek them out when traveling. If I’m on vacation and I want to splurge with points, I know to look for a St. Regis or a Luxury Collection property. If I’m traveling for business, I know that most larger cities will have a Marriott or Sheraton property that are reasonably priced for a few nights’ stay.
+  text_content: "As a consultant, I’ve spent my fair share of time in hotels over the years. I’ve frequented properties from all of the major hotel chains, although the bulk of my stays have been under the Marriott umbrella. Like most frequent travelers, I’ve developed a preference towards certain brands and will proactively seek them out when traveling. If I’m on vacation and I want to splurge with points, I know to look for a St. Regis or a Luxury Collection property. If I’m traveling for business, I know that most larger cities will have a Marriott or Sheraton property that are reasonably priced for a few nights’ stay.
   
   But over the years, I’ve observed that the same brand can offer a drastically different experience depending on the specific property. For instance, take a look at the two Sheraton properties below.",
   musing_id: 1,
@@ -386,7 +384,7 @@ Content.create(
 
 Content.create(
   image: "musings/01-hotels/04-hotelbrands.png",
-  text_content: "Sheraton Hua Hin Pranburi Villas (Thailand)",
+  text_content: "Marriott’s portfolio of brands and categories from their hotel development documentation",
   musing_id: 1,
   position: 7
 )
@@ -422,9 +420,16 @@ Content.create(
 )
 
 Content.create(
-  text_content: "A brand is not just a name or a logo, it’s a powerful signal to the consumer of what sort of experience to expect. If every experience I have within a hotel brand is inconsistent, then that’s a rather confusing signal without much purpose, and all of the resources that go into developing the brand are unfortunately being watered down. I believe all hotel chains should put a much greater focus on defining each of their brands with perceivable characteristics that are consistent across all of a brand’s properties. If there is ever a day where I am able to travel to a new city, book a stay at a Westin sight unseen, and be completely certain that I am having a more “premium” experience there than if I were to have stayed at the Courtyard a few blocks over, I will know they have succeeded.",
+  image: "musings/01-hotels/07-hotelbrands.png",
+  text_content: "Current categorization of the hotels in this post (top), compared to my suggested re-categorization (bottom)",
   musing_id: 1,
   position: 12
+)
+
+Content.create(
+  text_content: "A brand is not just a name or a logo, it’s a powerful signal to the consumer of what sort of experience to expect. If every experience I have within a hotel brand is inconsistent, then that’s a rather confusing signal without much purpose, and all of the resources that go into developing the brand are unfortunately being watered down. I believe all hotel chains should put a much greater focus on defining each of their brands with perceivable characteristics that are consistent across all of a brand’s properties. If there is ever a day where I am able to travel to a new city, book a stay at a Westin sight unseen, and be completely certain that I am having a more “premium” experience there than if I were to have stayed at the Courtyard a few blocks over, I will know they have succeeded.",
+  musing_id: 1,
+  position: 13
 )
 
 Content.create(

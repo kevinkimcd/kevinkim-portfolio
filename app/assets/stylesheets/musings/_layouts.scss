@@ -27,6 +27,28 @@
   margin-top: 8px;
 }
 
+
+#musing-show-title {
+  margin-bottom: 8px;
+}
+
+#musing-show-date {
+  color: $text-unfocused;
+}
+
+.content-image {
+  margin-top: 96px;
+  img {
+    width: 100%;
+  }
+}
+
+.content-text {
+  margin-top: 80px;
+  white-space: pre-line;
+}
+
+
 @media only screen and (min-width: 1600px) {
   .musings-container {
     width: 1200px;

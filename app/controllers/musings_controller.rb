@@ -6,6 +6,7 @@ class MusingsController < ApplicationController
 
   def show
     @musing = Musing.find(params[:id])
+    @contents = Musing.find(params[:id]).contents
   end
 
 end

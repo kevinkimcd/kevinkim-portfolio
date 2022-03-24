@@ -138,7 +138,17 @@
     line-height: 1;
     margin: 8px 0 0 0;
     padding: 0;
-    color: $text-unfocused
+    color: $text-unfocused;
+  }
+
+  .content-image-caption {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 8px 0 0 0;
+    padding: 0;
+    color: $dark-gray;
   }
 
 }  
@@ -219,7 +229,17 @@
     line-height: 1;
     margin: 4px 0 0 0;
     padding: 0;
-    color: $text-unfocused
+    color: $text-unfocused;
+  }
+
+  .content-image-caption {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.2;
+    margin: 4px 0 0 0;
+    padding: 0;
+    color: $dark-gray;
   }
 
 }  
