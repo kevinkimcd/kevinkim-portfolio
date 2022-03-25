@@ -1,10 +1,3 @@
-.musings-container {
-  margin: 0 auto;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 #musings-index-subtitle {
   margin-top: 16px;
 }
@@ -50,10 +43,6 @@
 
 
 @media only screen and (min-width: 1600px) {
-  .musings-container {
-    width: 1200px;
-    padding: 240px 0;
-  }
 
   .musings-grid-container {
     grid-template-columns: repeat(2, 540px);
@@ -72,10 +61,6 @@
 }
 
 @media only screen and (min-width: 1080px) and (max-width: 1599px) {
-  .musings-container {
-    width: 800px;
-    padding: 240px 0;
-  }
 
   .musings-grid-container {
     grid-template-columns: repeat(2, 320px);
@@ -93,10 +78,6 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1079px) {
-  .musings-container {
-    width: 584px;
-    padding: 200px 0;
-  }
 
   .musings-grid-container {
     grid-template-columns: repeat(2, 240px);
@@ -114,10 +95,6 @@
 }
 
 @media only screen and (min-width: 560px) and (max-width: 767px) {
-  .musings-container {
-    width: 384px;
-    padding: 160px 0;
-  }
 
   .musings-grid-container {
     grid-template-columns: repeat(1, 240px);
@@ -135,10 +112,6 @@
 }
 
 @media only screen and (min-width: 0px) and (max-width: 559px) {
-  .musings-container {
-    width: 240px;
-    padding: 160px 0;
-  }
 
   .musings-grid-container {
     grid-template-columns: repeat(1, 240px);
