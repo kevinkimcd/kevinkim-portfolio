@@ -8,9 +8,9 @@
     Inspired by the power of good design, I have spent many years incorporating established design principles and philosophies into my work as a consultant. I built this website to challenge conventional, text-heavy resumes by presenting my work visually and to offer my personal perspectives and philosophies on design and branding.
   </p>
 
-  <div class="project-grid-container">
+  <div class="index-grid-container">
     <% @projects.each do |project| %>
-      <%= link_to project_path(project), class:"project-grid-item" do %>
+      <%= link_to project_path(project), class:"index-grid-item" do %>
         <%= image_tag "#{project.thumbnail}" %>
         <%= project.title %>
       <% end %>

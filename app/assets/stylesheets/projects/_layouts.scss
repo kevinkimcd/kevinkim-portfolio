@@ -20,13 +20,13 @@
     padding: 240px 0;
   }
 
-  .project-grid-container {
+  .index-grid-container {
     grid-template-columns: repeat(2, 540px);
     margin-top: 240px;
     row-gap: 96px;
   }
 
-  .project-grid-item {
+  .index-grid-item {
     img {
       width: 540px;
       margin-bottom: 8px;
@@ -44,13 +44,13 @@
     padding: 240px 0;
   }
 
-  .project-grid-container {
+  .index-grid-container {
     grid-template-columns: repeat(2, 324px);
     margin-top: 240px;
     row-gap: 96px;
   }
 
-  .project-grid-item {
+  .index-grid-item {
     img {
       width: 324px;
       margin-bottom: 8px;
@@ -68,13 +68,13 @@
     padding: 200px 0;
   }
 
-  .project-grid-container {
+  .index-grid-container {
     grid-template-columns: repeat(2, 240px);
     margin-top: 240px;
     row-gap: 96px;
   }
 
-  .project-grid-item {
+  .index-grid-item {
     img {
       width: 240px;
       margin-bottom: 8px;
@@ -92,13 +92,13 @@
     padding: 160px 0;
   }
 
-  .project-grid-container {
+  .index-grid-container {
     grid-template-columns: repeat(1, 240px);
     margin-top: 120px;
     row-gap: 48px;
   }
 
-  .project-grid-item {
+  .index-grid-item {
     img {
       width: 384px;
       margin-bottom: 4px;
@@ -117,13 +117,13 @@
     padding: 160px 0;
   }
 
-  .project-grid-container {
+  .index-grid-container {
     grid-template-columns: repeat(1, 324px);
     margin-top: 120px;
     row-gap: 48px;
   }
 
-  .project-grid-item {
+  .index-grid-item {
     img {
       width: 324px;
       margin-bottom: 4px;
@@ -131,12 +131,12 @@
   }
 }
 
-.project-grid-container {
+.index-grid-container {
   display: grid;
   justify-content: space-between;
 }
 
-.project-grid-item {
+.index-grid-item {
   height: auto;
   text-decoration: none;
   &:hover {
