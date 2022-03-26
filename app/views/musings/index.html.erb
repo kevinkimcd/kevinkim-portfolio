@@ -2,9 +2,9 @@
   <h2>Musings</h2>
   <h4 id="musings-index-subtitle">A collection of my thoughts and opinions on product design, user experience, and corporate brand identity.</h4>
 
-  <div class="musings-grid-container">
+  <div class="index-grid-container">
     <% @musings.each do |musing| %>
-      <div class="musings-grid-item">
+      <div class="index-grid-item">
         <%= link_to musing_path(musing), class:"musings-link" do %>
           <%= image_tag "#{musing.image}", id:"musing-thumbnail" %>
           <div id="musing-title">

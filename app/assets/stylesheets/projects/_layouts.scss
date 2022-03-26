@@ -29,6 +29,7 @@
   .index-grid-item {
     img {
       width: 540px;
+      height: 360px;
       margin-bottom: 8px;
     }
   }
@@ -53,6 +54,7 @@
   .index-grid-item {
     img {
       width: 324px;
+      height: 216px;
       margin-bottom: 8px;
     }
   }
@@ -77,6 +79,7 @@
   .index-grid-item {
     img {
       width: 240px;
+      height: 160px;
       margin-bottom: 8px;
     }
   }
@@ -101,6 +104,7 @@
   .index-grid-item {
     img {
       width: 384px;
+      height: 256px;
       margin-bottom: 4px;
     }
   }
@@ -126,6 +130,7 @@
   .index-grid-item {
     img {
       width: 324px;
+      height: 216px;
       margin-bottom: 4px;
     }
   }
@@ -134,13 +139,14 @@
 .index-grid-container {
   display: grid;
   justify-content: space-between;
+  a {
+    text-decoration: none;
+  }
 }
 
-.index-grid-item {
-  height: auto;
-  text-decoration: none;
+.project-grid-item {
   &:hover {
-    text-decoration: underline !important;
+    text-decoration: underline;
   }
 }
 

@@ -10,7 +10,7 @@
 
   <div class="index-grid-container">
     <% @projects.each do |project| %>
-      <%= link_to project_path(project), class:"index-grid-item" do %>
+      <%= link_to project_path(project), class:"index-grid-item project-grid-item" do %>
         <%= image_tag "#{project.thumbnail}" %>
         <%= project.title %>
       <% end %>
