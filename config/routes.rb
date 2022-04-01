@@ -12,5 +12,6 @@ Rails.application.routes.draw do
   get "musings/:id", to: "musings#show", as: :musing
   
   get "about", to: "pages#about", as: :about
+  get "download_resume", to: "pages#download_resume", as: :download_resume
 
 end
