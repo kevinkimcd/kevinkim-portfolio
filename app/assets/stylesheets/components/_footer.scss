@@ -9,6 +9,15 @@
 }
 
 .footer-container {
+  a {
+    color: #888888;
+    text-decoration: none;
+    font-weight: 400;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   margin: 0 auto;
   padding: 80px 0;
 
