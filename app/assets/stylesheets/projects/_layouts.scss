@@ -15,8 +15,12 @@
   font-weight: 500;
 }
 
-#work-title {
-  margin-top: 240px;
+#work {
+  margin-bottom: 240px;
+}
+
+#work-subtitle {
+  margin-top: 8px;
 }
 
 @media only screen and (min-width: 1600px) {
@@ -31,7 +35,7 @@
 
   .index-grid-container {
     grid-template-columns: repeat(2, 540px);
-    margin-top: 240px;
+    margin-top: 120px;
     row-gap: 96px;
   }
 
@@ -56,7 +60,7 @@
 
   .index-grid-container {
     grid-template-columns: repeat(2, 324px);
-    margin-top: 240px;
+    margin-top: 120px;
     row-gap: 96px;
   }
 
@@ -70,6 +74,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1079px) {
+  #work {
+    margin-bottom: 200px;
+  }
+
   .intro-text {
     margin: 120px 0;
   }
@@ -81,7 +89,7 @@
 
   .index-grid-container {
     grid-template-columns: repeat(2, 240px);
-    margin-top: 240px;
+    margin-top: 120px;
     row-gap: 96px;
   }
 
@@ -95,6 +103,10 @@
 }
 
 @media only screen and (min-width: 560px) and (max-width: 767px) {
+  #work {
+    margin-bottom: 160px;
+  }
+
   .intro-text {
     margin: 80px 0;
   }
@@ -106,7 +118,7 @@
 
   .index-grid-container {
     grid-template-columns: repeat(1, 384px);
-    margin-top: 120px;
+    margin-top: 96px;
     row-gap: 48px;
   }
 
@@ -121,6 +133,10 @@
 
 
 @media only screen and (min-width: 0px) and (max-width: 559px) {
+  #work {
+    margin-bottom: 160px;
+  }
+
   .intro-text {
     margin: 64px 0;
   }
@@ -132,7 +148,7 @@
 
   .index-grid-container {
     grid-template-columns: repeat(1, 324px);
-    margin-top: 120px;
+    margin-top: 96px;
     row-gap: 48px;
   }
 

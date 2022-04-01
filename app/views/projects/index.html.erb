@@ -16,8 +16,12 @@ I’ve also devoted a section of my portfolio to my Musings — a collection of 
 
 I hope this portfolio gives you a brief but insightful look into my career so far. If there’s something you’d like to know more about or if you’d just like to chat, please feel free to drop me a line!
   </p>
+  <div id="work-whitespace">
 
-<h2 id="work-title">Work</h2>
+  </div>
+  <div id="work"></div>
+  <h2>Work</h2>
+  <h4 id="work-subtitle">Projects I've worked on throughout my career as a management consultant. This is not a fully comprehensive list, but rather a curated collection of my work that I feel best represents my journey thus far.</h4>
   <div class="index-grid-container">
     <% @projects.each do |project| %>
       <%= link_to project_path(project), class:"index-grid-item project-grid-item" do %>
