@@ -31,6 +31,8 @@ gem "jbuilder"
 # debugging with pry-byebug
 gem "pry-byebug"
 
+gem "jquery-rails"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
