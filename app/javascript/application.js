@@ -6,3 +6,10 @@ import "@hotwired/turbo-rails"
 import "controllers"
 import "application"
 
+$(window).on('scroll', function() {
+  if ($(window).scrollTop() >= $(
+    '#work-subtitle').offset().top + $('#work-subtitle').
+      outerHeight() - window.innerHeight) {
+      console.log("Hello world");
+  }
+});
