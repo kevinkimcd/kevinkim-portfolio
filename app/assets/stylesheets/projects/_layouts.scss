@@ -41,9 +41,10 @@ img {
 }
 
 #work-arrow-down {
+  height: 36px;
   img {
-    height: 36px;
-    width: 0;
+    width: auto;
+    display: none;
   }
   margin-top: 120px;
   margin-bottom: 120px;
@@ -51,15 +52,18 @@ img {
 
 .arrow-activate {
   img {
-    width: auto !important;
+    display: inline !important;
+    height: 36px;
+    width: auto;
   }
 }
 
 #work-arrow-up {
+  height: 36px;
   img {
     transform: rotate(180deg);
-    height: 36px;
-    width: 0;
+    width: auto;
+    display: none;
   }
   margin-bottom: 120px;
 }
