@@ -6,32 +6,47 @@ import "@hotwired/turbo-rails"
 import "controllers"
 import "application"
 
-let arrowDown = true;
 
-$(document).on("ready", function() {
-  $.fn.setArrow();
-})
+// scripts for arrow in work index page
 
-$(window).on('scroll', function() {
-  $.fn.setArrow();
+$.fn.setArrowDown = function() {
+  $("#work-arrow-down").addClass("arrow-activate");
+}
+
+$.fn.setArrowUp = function() {
+  $("#work-arrow-up").addClass("arrow-activate");
+}
+
+$.fn.removeArrowDown = function() {
+  $("#work-arrow-down").removeClass("arrow-activate");
+}
+
+$.fn.removeArrowUp = function() {
+  $("#work-arrow-up").removeClass("arrow-activate");
+}
+
+$.fn.checkScrollPosition = function() {
+  let arrowUpBreakPoint = Math.floor($("#work-arrow-up").offset().top) - Math.floor($("#work").height());
+  let arrowDownBreakPoint = Math.floor($("#work-title"));
+  let scrollBottom = $(window).scrollTop() + $(window).height();
+  if (($(window).scrollTop() >= arrowUpBreakPoint) && (!$("#work-arrow-up").hasClass("arrow-activate"))) {
+    $.fn.setArrowUp();
+    $.fn.removeArrowDown();
+  } else if ((scrollBottom < arrowUpBreakPoint) && (!$("#work-arrow-down").hasClass("arrow-activate"))) {
+    $.fn.setArrowDown();
+    $.fn.removeArrowUp();
+  }
+  console.log("scrollBottom: " + scrollBottom);
+  console.log("arrowUpBreakPoint: " + arrowUpBreakPoint);
+}
+
+$(function() {
+  $.fn.checkScrollPosition();
 });
 
-$.fn.setArrow = function () {
-  let arrowUpPosition = Math.floor($("#work").offset().top);
-  if ($(window).scrollTop() >= arrowUpPosition) {
-    if (arrowDown == true) {
-      $("#work-arrow-down").removeClass("down-arrow-on");
-      $("#work-arrow-up").addClass("arrow-up-on");
-      arrowDown = false;
-    }
-  } else if ($(window).scrollTop() < arrowUpPosition) {
-    if (arrowDown == false) {
-      $("work-arrow-up").removeClass("arrow-up-on");
-      $("work-arrow-down").addClass("arrow-down-on");
-      arrowDown = true;
-    }
-  }
-  console.log("scrollTop = " + $(window).scrollTop());
-  console.log("arrowUpPosition = " + arrowUpPosition);
-  console.log(arrowDown);
-}
+$(window).on('scroll', function() {
+  $.fn.checkScrollPosition();
+});
+
+
+//
