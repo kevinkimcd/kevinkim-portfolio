@@ -9,7 +9,6 @@ import "application"
 
 // scripts for arrow in work index page
 
-
 $.fn.setArrowDown = function() {
   $("#work-arrow-down").addClass("arrow-activate");
 }
@@ -25,6 +24,19 @@ $.fn.removeArrowDown = function() {
 $.fn.removeArrowUp = function() {
   $("#work-arrow-up").removeClass("arrow-activate");
 }
+
+$("#work-arrow-down").on("click", function() {
+  $("html, body").animate({
+    scrollTop: $("#work-arrow-up").offset().top - Math.floor($("#work").height())
+  }, 500);
+});
+
+$("#work-arrow-up").on("click", function() {
+  $("html, body").animate({
+    scrollTop: $("#work-top").offset().top
+  }, 500);
+});
+
 
 $.fn.checkScrollPosition = function() {
   let arrowUpBreakPoint = Math.floor($("#work-arrow-up").offset().top) - Math.floor($("#work").height() * 2);
