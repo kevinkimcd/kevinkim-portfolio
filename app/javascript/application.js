@@ -9,6 +9,7 @@ import "application"
 
 // scripts for arrow in work index page
 
+
 $.fn.setArrowDown = function() {
   $("#work-arrow-down").addClass("arrow-activate");
 }
@@ -26,23 +27,19 @@ $.fn.removeArrowUp = function() {
 }
 
 $.fn.checkScrollPosition = function() {
-  let arrowUpBreakPoint = Math.floor($("#work-arrow-up").offset().top) - Math.floor($("#work").height());
-  let arrowDownBreakPoint = Math.floor($("#work-title"));
+  let arrowUpBreakPoint = Math.floor($("#work-arrow-up").offset().top) - Math.floor($("#work").height() * 2);
+  let arrowDownBreakPoint = Math.floor($("#work-arrow-up").offset().top) - Math.floor($("#work").height());
   let scrollBottom = $(window).scrollTop() + $(window).height();
   if (($(window).scrollTop() >= arrowUpBreakPoint) && (!$("#work-arrow-up").hasClass("arrow-activate"))) {
     $.fn.setArrowUp();
     $.fn.removeArrowDown();
-  } else if ((scrollBottom < arrowUpBreakPoint) && (!$("#work-arrow-down").hasClass("arrow-activate"))) {
+    console.log("Arrow Up");
+  } else if ((scrollBottom < arrowDownBreakPoint) && (!$("#work-arrow-down").hasClass("arrow-activate"))) {
     $.fn.setArrowDown();
     $.fn.removeArrowUp();
+    console.log("Arrow Down");
   }
-  console.log("scrollBottom: " + scrollBottom);
-  console.log("arrowUpBreakPoint: " + arrowUpBreakPoint);
 }
-
-$(function() {
-  $.fn.checkScrollPosition();
-});
 
 $(window).on('scroll', function() {
   $.fn.checkScrollPosition();
