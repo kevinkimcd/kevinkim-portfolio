@@ -10,7 +10,7 @@ Project.create(
   company: "Accenture Strategy",
   start_year: 2020,
   end_year: 2021,
-  thumbnail: "thumbnails/project01.png",
+  thumbnail: "thumbnails/project01.jpg",
   banner: "banners/project01.png",
   banner_height: "640px",
   banner_bg_color: "#f2f2f2",
@@ -30,7 +30,7 @@ Project.create(
   company: "Accenture Strategy",
   start_year: 2019,
   end_year: 2020,
-  thumbnail: "thumbnails/project02.png",
+  thumbnail: "thumbnails/project02.jpg",
   banner: "banners/project02.png",
   banner_height: "512px",
   banner_bg_color: "#242A33",
@@ -50,7 +50,7 @@ Project.create(
   company: "Accenture Strategy",
   start_year: 2021,
   end_year: 2021,
-  thumbnail: "thumbnails/project03.png",
+  thumbnail: "thumbnails/project03.jpg",
   banner: "banners/project03.png",
   banner_height: "712px",
   banner_bg_color: "#E2EDED",
@@ -68,7 +68,7 @@ Project.create(
   company: "Accenture Strategy",
   start_year: 2020,
   end_year: 2020,
-  thumbnail: "thumbnails/project04.png",
+  thumbnail: "thumbnails/project04.jpg",
   banner: "banners/project04.png",
   banner_height: "600px",
   banner_bg_color: "#EFF1F4",
@@ -86,7 +86,7 @@ Project.create(
   company: "Accenture Strategy",
   start_year: 2018,
   end_year: 2019,
-  thumbnail: "thumbnails/project05.png",
+  thumbnail: "thumbnails/project05.jpg",
   banner: "banners/project05.png",
   banner_height: "600px",
   banner_bg_color: "#C9D7DE",
@@ -106,7 +106,7 @@ Project.create(
   company: "IBB Consulting Group",
   start_year: 2016,
   end_year: 2016,
-  thumbnail: "thumbnails/project06.png",
+  thumbnail: "thumbnails/project06.jpg",
   banner: "banners/project06.png",
   banner_height: "864px",
   banner_bg_color: "#DDD8D8",
@@ -126,7 +126,7 @@ Project.create(
   company: "IBM Global Business Services",
   start_year: 2015,
   end_year: 2015,
-  thumbnail: "thumbnails/project07.png",
+  thumbnail: "thumbnails/project07.jpg",
   banner: "banners/project07.png",
   banner_height: "864px",
   banner_bg_color: "#2F2F2F",
@@ -146,7 +146,7 @@ Project.create(
   company: "IBM Global Business Services",
   start_year: 2014,
   end_year: 2014,
-  thumbnail: "thumbnails/project08.png",
+  thumbnail: "thumbnails/project08.jpg",
   banner: "banners/project08.png",
   banner_height: "824px",
   banner_bg_color: "#EFF1F4",
@@ -325,12 +325,12 @@ Slide.create(
 
 Musing.create(
   title: "Hotel brands have a brand identity problem",
-  image: "musings/01-hotels/00-thumbnail.png"
+  image: "musings/01-hotels/00-thumbnail.jpg"
 )
 
 Musing.create(
   title: "UI cross-platform inconsistencies",
-  image: "musings/02-ui-cross-platform/00-thumbnail.png"
+  image: "musings/02-ui-cross-platform/00-thumbnail.jpg"
 )
 
 Content.create(
@@ -342,14 +342,14 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/01-hotels/01-sheraton.png",
+  image: "musings/01-hotels/01-sheraton.jpg",
   text_content: "Sheraton Austin Hotel at the Capitol",
   musing_id: 1,
   position: 2
 )
 
 Content.create(
-  image: "musings/01-hotels/02-sheraton.png",
+  image: "musings/01-hotels/02-sheraton.jpg",
   text_content: "Sheraton Los Angeles San Gabriel",
   musing_id: 1,
   position: 3
@@ -362,7 +362,7 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/01-hotels/03-sheraton.png",
+  image: "musings/01-hotels/03-sheraton.jpg",
   text_content: "Sheraton Hua Hin Pranburi Villas (Thailand)",
   musing_id: 1,
   position: 5
@@ -383,7 +383,7 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/01-hotels/04-hotelbrands.png",
+  image: "musings/01-hotels/04-hotelbrands.jpg",
   text_content: "Marriott’s portfolio of brands and categories from their hotel development documentation",
   musing_id: 1,
   position: 7
@@ -396,14 +396,14 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/01-hotels/05-westin.png",
+  image: "musings/01-hotels/05-westin.jpg",
   text_content: "Westin Seattle",
   musing_id: 1,
   position: 9
 )
 
 Content.create(
-  image: "musings/01-hotels/06-courtyard.png",
+  image: "musings/01-hotels/06-courtyard.jpg",
   text_content: "Courtyard Downtown Seattle / South Lake Union",
   musing_id: 1,
   position: 10
@@ -420,7 +420,7 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/01-hotels/07-hotelbrands.png",
+  image: "musings/01-hotels/07-hotelbrands.jpg",
   text_content: "Current categorization of the hotels in this post (top), compared to my suggested re-categorization (bottom)",
   musing_id: 1,
   position: 12
@@ -441,7 +441,7 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/02-ui-cross-platform/01-youtube.png",
+  image: "musings/02-ui-cross-platform/01-youtube.jpg",
   text_content: "Web app (left), iOS app (right)",
   musing_id: 2,
   position: 2
@@ -454,7 +454,7 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/02-ui-cross-platform/02-netflix.png",
+  image: "musings/02-ui-cross-platform/02-netflix.jpg",
   text_content: "iPadOS app (left), web app (right)",
   musing_id: 2,
   position: 4
@@ -469,7 +469,7 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/02-ui-cross-platform/03-netflix.png",
+  image: "musings/02-ui-cross-platform/03-netflix.jpg",
   text_content: "Avatar icon on the landing page (left) and what you see when you tap it (right)",
   musing_id: 2,
   position: 6
@@ -482,7 +482,7 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/02-ui-cross-platform/04-netflix.png",
+  image: "musings/02-ui-cross-platform/04-netflix.jpg",
   text_content: "\“More\” icon on landing page (left) and what you see when you tap it (right)",
   musing_id: 2,
   position: 8
@@ -495,7 +495,7 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/02-ui-cross-platform/05-netflix.png",
+  image: "musings/02-ui-cross-platform/05-netflix.jpg",
   text_content: "Menu with account options in view when hovering over avatar icon",
   musing_id: 2,
   position: 10
@@ -510,7 +510,7 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/02-ui-cross-platform/06-hbo.png",
+  image: "musings/02-ui-cross-platform/06-hbo.jpg",
   text_content: "tvOS app (left), iPadOS app (right)",
   musing_id: 2,
   position: 12
@@ -523,14 +523,14 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/02-ui-cross-platform/07-hbo.png",
+  image: "musings/02-ui-cross-platform/07-hbo.jpg",
   text_content: "tvOS app reveals Hubs with one tap of the side menu",
   musing_id: 2,
   position: 14
 )
 
 Content.create(
-  image: "musings/02-ui-cross-platform/08-hbo.png",
+  image: "musings/02-ui-cross-platform/08-hbo.jpg",
   text_content: "iPadOS app requires a tap on the hamburger menu, then scrolling down several frames to find the Hubs collections",
   musing_id: 2,
   position: 15
@@ -543,7 +543,7 @@ Content.create(
 )
 
 Content.create(
-  image: "musings/02-ui-cross-platform/09-hbo.png",
+  image: "musings/02-ui-cross-platform/09-hbo.jpg",
   text_content: "Simplified HBO Max menu trees on tvOS and iPadOS (categories such as Just Added, Coming Soon, have been aggregated into \“Categories\”)",
   musing_id: 2,
   position: 17
