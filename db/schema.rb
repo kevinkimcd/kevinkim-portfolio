@@ -11,10 +11,13 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2022_03_23_191743) do
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "contents", force: :cascade do |t|
     t.text "text_content"
     t.string "image"
-    t.integer "musing_id"
+    t.bigint "musing_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "position"
@@ -53,7 +56,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_03_23_191743) do
   create_table "slides", force: :cascade do |t|
     t.string "title"
     t.text "description"
-    t.integer "project_id"
+    t.bigint "project_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "image"
