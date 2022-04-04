@@ -27,6 +27,9 @@ Rails.application.configure do
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
 
+  # added to precompile assets to eliminate images only partially loading
+  config.serve_static_assets = true
+
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
 
