@@ -479,6 +479,7 @@ img {
     position: relative;
     overflow: hidden;
     img {
+      transform: scale(0.5);
       position: absolute;
       top: -9999px;
       bottom: -9999px;
