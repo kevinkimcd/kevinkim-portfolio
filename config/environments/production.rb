@@ -27,9 +27,6 @@ Rails.application.configure do
   # Compress CSS using a preprocessor.
   # config.assets.css_compressor = :sass
 
-  # added to precompile assets to eliminate images only partially loading
-  config.serve_static_assets = true
-
   # Do not fallback to assets pipeline if a precompiled asset is missed.
   config.assets.compile = true
 
@@ -80,9 +77,6 @@ Rails.application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-
-  # added to quicken the speed with which the banner images load
-  config.static_cache_control = "public, max-age=31536000"
 
   # Use a different logger for distributed setups.
   # require "syslog/logger"
