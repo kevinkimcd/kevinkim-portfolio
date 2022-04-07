@@ -3,6 +3,9 @@
 <% banner_text = @project.banner_text_color %>
 <% banner_subtext = @project.banner_subtext_color %>
 
+<%# added the below line to make the iphone notch color blend in with background bg color %>
+<meta name="theme-color" content="<%= banner_bg_color %>"/>
+
 <div
   class="project-banner"
   style="background-color: <%= banner_bg_color %>;">
