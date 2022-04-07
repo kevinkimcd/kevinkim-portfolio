@@ -445,10 +445,113 @@ img {
   }
 }
 
+
+// CSS for intermediate show layout between mobile and desktop
+
+@media only screen and (min-width: 560px) and (max-width: 1079px) {
+
+  .project-show-container {
+    margin: 0 auto;
+    padding: 160px 0 0 0;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;   
+  }
+  
+  .project-header {
+    display: inline;
+    width: 324px;
+  }
+
+  .project-header-right {
+    margin-top: 48px;
+  }
+  
+  
+  .project-title {
+    margin-bottom: 8px;
+  }
+  
+  .project-banner-image {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    max-height: 324px;
+    padding: 60px 0 60px 0 !important;
+    margin-top: 60px;
+    img {
+      transform: scale(0.25,0.25);
+      position: absolute;
+      top: -9999px;
+      bottom: -9999px;
+      left: -9999px;
+      right: -9999px;
+      margin: auto;
+    }
+  }
+
+  // CSS for below-banner section is below
+
+  .page-background {
+    background-color: $background-gray;
+  }
+
+
+  .project-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project-details-left {
+    color: $text-unfocused;
+  }
+
+  .project-years {
+    margin-top: 8px;
+  }
+
+  .company-name {
+    margin-top: 8px;
+  }
+
+  .project-details-right {
+    border-style: solid;
+    border-width: 0 0 0 1px;
+    border-color: $text-unfocused;
+    padding-left: 48px;
+  }
+
+
+  // CSS for slides is below
+
+  .slide-grid-background {
+    background-color: $background-gray;
+  }
+
+  .slide-grid-container {
+    margin: 240px 0 0 0;
+    padding-bottom: 240px;
+  }
+
+  .slide-grid-item {
+    margin-top: 128px; 
+    display: flex;
+  }
+
+  .slide-grid-right {
+    margin-left: 56px;
+  }
+
+  .slide-title {
+    margin-bottom: 8px;
+  }
+}
+
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // CSS for desktop show layout
 
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 1080px) {
 
   .project-show-container {
     margin: 0 auto;
