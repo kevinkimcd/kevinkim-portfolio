@@ -15,6 +15,10 @@ if ($(".projects-index-view").length) {
     $.fn.checkScrollPosition();
   });
 
+  $(function() {
+    $.fn.checkScrollPosition();
+  });
+
   $.fn.setArrowDown = function() {
     $("#work-arrow-down").addClass("arrow-activate");
   }
