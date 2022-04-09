@@ -22,7 +22,7 @@
 }
 
 .content-image {
-  margin-top: 96px;
+  margin-top: 80px;
   img {
     width: 100%;
   }
@@ -33,7 +33,25 @@
   white-space: pre-line;
 }
 
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+  .content-image {
+    margin-top: 40px;
+  }
+
+  .content-text {
+    margin-top: 40px;
+  }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 559px) {
+  .content-image {
+    margin-top: 40px;
+  }
+
+  .content-text {
+    margin-top: 40px;
+  }
+
   #musing-date {
     margin-top: 4px;
   }
