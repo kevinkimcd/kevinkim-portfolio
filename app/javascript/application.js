@@ -60,27 +60,5 @@ if ($(".projects-index-view").length) {
       $.fn.removeArrowUp();
     }
   }
+  console.log("hello world");
 }
-
-// scripts for dynamic navbar changing
-// script below not to be used, may be revisited later with needed revisions
-
-// $.fn.navbarRecolor = function() {
-//   $(".navbar-link-text").attr("style", "color: <%= navbar_text %> !important");
-//   $(".navbar-container").attr("style", "background-color: <%= navbar_color %> !important");
-// }
-
-// $.fn.navbarRemoveColor = function() {
-//   $(".navbar-link-text").attr("style", "color: #333333 !important");
-//   $(".navbar-container").attr("style", "background-color: #F8F8F8 !important");
-// }
-
-// $(window).on('scroll', function() {
-//   if (($(window).scrollTop() >= $(".page-background").offset().top) && ($(".navbar-container").css("background-color") != "rgb(248, 248, 248)")) {
-//     $.fn.navbarRemoveColor();
-//     console.log("remove color");
-//   } else if (($(window).scrollTop() < $(".page-background").offset().top) && ($(".navbar-container").css("background-color") == "rgb(248, 248, 248)")) {
-//     $.fn.navbarRecolor();
-//     console.log("recolor");
-//   }
-// });
