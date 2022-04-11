@@ -11,6 +11,13 @@ import "application"
 
 
 if ($(".projects-index-view").length) {
+  $(window).on('scroll', function() {
+    $.fn.checkScrollPosition();
+  });
+
+  $(function() {
+    $.fn.checkScrollPosition();
+  });
 
   $.fn.setArrowDown = function() {
     $("#work-arrow-down").addClass("arrow-activate");
@@ -27,27 +34,6 @@ if ($(".projects-index-view").length) {
   $.fn.removeArrowUp = function() {
     $("#work-arrow-up").removeClass("arrow-activate");
   }
-
-  $.fn.checkScrollPosition = function() {
-    let arrowUpBreakPoint = Math.floor($("#work-arrow-up").offset().top) - Math.floor($("#work").height() * 2);
-    let arrowDownBreakPoint = Math.floor($("#work-arrow-up").offset().top) - Math.floor($("#work").height());
-    let scrollBottom = $(window).scrollTop() + $(window).height();
-    if (($(window).scrollTop() >= arrowUpBreakPoint) && (!$("#work-arrow-up").hasClass("arrow-activate"))) {
-      $.fn.setArrowUp();
-      $.fn.removeArrowDown();
-    } else if ((scrollBottom < arrowDownBreakPoint) && (!$("#work-arrow-down").hasClass("arrow-activate"))) {
-      $.fn.setArrowDown();
-      $.fn.removeArrowUp();
-    }
-  }
-
-  $(window).on('scroll', function() {
-    $.fn.checkScrollPosition();
-  });
-
-  $(function() {
-    $.fn.checkScrollPosition();
-  });
   
   $(".work-arrow").first().on("click", function() {
     $("html, body").animate({
@@ -61,4 +47,17 @@ if ($(".projects-index-view").length) {
     }, 500);
   });
   
+  
+  $.fn.checkScrollPosition = function() {
+    let arrowUpBreakPoint = Math.floor($("#work-arrow-up").offset().top) - Math.floor($("#work").height() * 2);
+    let arrowDownBreakPoint = Math.floor($("#work-arrow-up").offset().top) - Math.floor($("#work").height());
+    let scrollBottom = $(window).scrollTop() + $(window).height();
+    if (($(window).scrollTop() >= arrowUpBreakPoint) && (!$("#work-arrow-up").hasClass("arrow-activate"))) {
+      $.fn.setArrowUp();
+      $.fn.removeArrowDown();
+    } else if ((scrollBottom < arrowDownBreakPoint) && (!$("#work-arrow-down").hasClass("arrow-activate"))) {
+      $.fn.setArrowDown();
+      $.fn.removeArrowUp();
+    }
+  }
 }
