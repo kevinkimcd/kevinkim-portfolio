@@ -324,7 +324,7 @@ Slide.create(
 # seed for musings starts here
 
 Musing.create(
-  title: "Hotel brands have a brand identity problem",
+  title: "Hotel brands lack coherent brand identities",
   image: "musings/01-hotels/00-thumbnail.jpg"
 )
 
@@ -553,4 +553,53 @@ Content.create(
   text_content:"As someone who is fairly tech savvy, I’m able to adapt quickly and navigate through these inconsistencies with very low effort. But good design should aim to create a simple experience for everyone, not just power users. The problem in the above examples is not that the apps don’t function exactly the same way — user experiences can and often should be adapted to optimize against the size of the display and the input method. The problem is that these apps built for different platforms look nearly the same but function slightly differently, resulting in a suboptimal user experience. If the UIs for these apps need to be adapted to different platforms, these variations should always be crafted meaningfully with specific purpose, with no element placed by chance.",
   musing_id: 2,
   position: 18
+)
+
+Musing.create(
+  title: "Getting people to return their shopping carts",
+  image: "musings/03-shopping-carts/00-thumbnail.jpg"
+)
+
+Content.create(
+  text_content: "As a New Yorker, going grocery shopping usually means walking around the store with a basket that gets stacked or taken away at the cash register at the end of my trip. With real estate so limited, it’s rare to see a stray basket lying around taking up precious space. Whenever I go out into the suburbs, the customer journey is perceivably different; large shopping carts are the norm, and they unfortunately get left behind all over the parking lot by shoppers who fail to bring them back to the cart return stations.
+
+  It’s common for larger retailers to employ staff dedicated to attending carts, but their jobs are certainly made harder for each cart that fails to be returned by customers properly. If we approach this as a design problem, we can start with the carts and return stations themselves. To start, are the stations spread too far apart?",
+  musing_id: 3,
+  position: 1
+)
+
+Content.create(
+  image: "musings/03-shopping-carts/01-parking-lot.jpg",
+  text_content: "Satellite view of the Costco Brooklyn Warehouse from Apple Maps",
+  musing_id: 3,
+  position: 2
+)
+
+Content.create(
+  text_content: "The above image is a satellite view of a Costco in Brooklyn that I’ve been to many times. From what I can see, this section of the parking lot facing the entrance of the store only has two return stations in the lot (highlighted in yellow). I’ve indicated where I can see stray carts clearly left behind in the grainy image (circled in red), while giving the benefit of the doubt to a few other carts I can see next to car trunks that may be there temporarily while the customer unloads.
+
+  In this very unscientific exercise, it appears that carts are left behind in sections of the parking lot where there is no ease of access to return the cart to a station. In each of the examples circled in red, the customer would have to go around an entire row of parked cars to reach one. It seems like a simple remedy would be to convert a few parking spaces in the bottom-most row into return stations.
+  
+  While creating even more return stations throughout the lot would likely improve cart return rates further, there’s clearly a tradeoff — the more return stations there are, the fewer spaces remain for parking spots, which can be costly in a place like New York where space is so limited to begin with. The other option is to design a solution that tackles user behavior. In the current state, a customer has no incentive to return a cart to a station. There is neither a reward nor a punishment for failing to do so, aside from perhaps the judgment and dirty look from a nearby observer (which, in certain collectivist societies such as Korea, may be a strong enough incentive!).
+  
+  Luckily, a solution to influence user behavior has already been designed and is in use in many other countries throughout the world. For example, it’s common to find shopping carts that look like this in Korea:",
+  musing_id: 3,
+  position: 3
+)
+
+Content.create(
+  image: "musings/03-shopping-carts/02-cart.jpg",
+  text_content: "Shopping cart in Seoul e-mart (image credit: sixinseoul.com/our-life-in-seoul-take-2/a-lesson-in-e-marting)",
+  musing_id: 3,
+  position: 4
+)
+
+Content.create(
+  text_content: "Carts are chained together, and in order to unlock one, you must put insert a 100 Korean won coin as shown (more or less the value of a US dime). When you return your cart, you get your coin back. It’s a simple but effective solution to embed the return of a cart into the user journey. It’s not even that the 100 won cost carries a big financial weight, but it’s the act of giving something up and receiving it back that habituates and reinforces the behavior of returning the cart at the end of one’s shopping journey.
+
+  As mentioned, this shopping cart design is used in many countries around the world, and I think it’s about time it makes its way over to the United States. It’s important to note that the lock mechanism is only one piece of the design here; in order to create a good customer experience, the other piece must also be present, which is to ensure that there is a sufficient number of return stations spread out across the parking lot to minimize the inconvenience to the customer.
+  
+  The reason why I dedicated an entire post to shopping carts is to show that good design extends down to the details of a product or experience. The locks are small pieces of hardware that can be retrofitted on existing shopping carts and return stations, and this little design element is a powerful tool to enforce a certain action within a user journey. Making parking lots less cluttered with carts in turn enhances the customer experience for everyone, and it doesn’t even require a new innovation to achieve.",
+  musing_id: 3,
+  position: 5
 )
