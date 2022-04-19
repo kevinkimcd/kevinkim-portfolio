@@ -563,7 +563,7 @@ Musing.create(
 Content.create(
   text_content: "As a New Yorker, going grocery shopping usually means walking around the store with a basket that gets stacked or taken away at the cash register at the end of my trip. With real estate so limited, it’s rare to see a stray basket lying around taking up precious space. Whenever I go out into the suburbs, the customer journey is perceivably different; large shopping carts are the norm, and they unfortunately get left behind all over the parking lot by shoppers who fail to bring them back to the cart return stations.
 
-  It’s common for larger retailers to employ staff dedicated to attending carts, but their jobs are certainly made harder for each cart that fails to be returned by customers properly. If we approach this as a design problem, we can start with the carts and return stations themselves. To start, are the stations spread too far apart?",
+It’s common for larger retailers to employ staff dedicated to attending carts, but their jobs are certainly made harder for each cart that fails to be returned by customers properly. If we approach this as a design problem, we can start with the carts and return stations themselves. First, are the stations spread too far apart?",
   musing_id: 3,
   position: 1
 )
