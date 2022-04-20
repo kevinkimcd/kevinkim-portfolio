@@ -576,7 +576,7 @@ Content.create(
 )
 
 Content.create(
-  text_content: "The above image is a satellite view of a Costco in Brooklyn that I’ve been to many times. From what I can see, this section of the parking lot facing the entrance of the store only has two return stations in the lot (highlighted in yellow). I’ve indicated where I can see stray carts clearly left behind in the grainy image (circled in red), while giving the benefit of the doubt to a few other carts I can see next to car trunks that may be there temporarily while the customer unloads.
+  text_content: "The above image is a satellite view of a Costco in Brooklyn that I’ve been to many times. From what I can see, this section of the parking lot facing the entrance of the store only has two return stations (highlighted in yellow). I’ve indicated where I can see stray carts left behind unreturned (circled in red), while giving the benefit of the doubt to a few other carts I can see next to car trunks that may be there temporarily while the customer unloads.
 
   In this very unscientific exercise, it appears that carts are left behind in sections of the parking lot where there is no ease of access to return the cart to a station. In each of the examples circled in red, the customer would have to go around an entire row of parked cars to reach one. It seems like a simple remedy would be to convert a few parking spaces in the bottom-most row into return stations.
   
