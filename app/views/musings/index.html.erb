@@ -3,18 +3,23 @@
   <h4 id="musings-index-subtitle">A collection of my thoughts and opinions on product design, user experience, and corporate brand identity.</h4>
 
   <div class="index-grid-container">
-    <% @musings.each do |musing| %>
-      <div class="index-grid-item">
-        <%= link_to musing_path(musing), class:"musings-link" do %>
-          <%= image_tag "#{musing.image}", id:"musing-thumbnail" %>
-          <div id="musing-title">
-            <%= musing.title %>
-          </div>
-        <% end %>
-        <div id="musing-date">
-          <%= musing.created_at.strftime("%B %e, %Y") %>
+  <% musings = [] %>
+  <% @musings.each do |musing| %>
+    <% musings << musing %>
+  <% end %>
+  <% musings_sorted = musings.sort_by{|m| m.created_at }.reverse %>
+  <% musings_sorted.each do |musing| %>
+    <div class="index-grid-item">
+      <%= link_to musing_path(musing), class:"musings-link" do %>
+        <%= image_tag "#{musing.image}", id:"musing-thumbnail" %>
+        <div id="musing-title">
+          <%= musing.title %>
         </div>
+      <% end %>
+      <div id="musing-date">
+        <%= musing.created_at.strftime("%B %e, %Y") %>
       </div>
-    <% end %>
+    </div>
+  <% end %>
   </div>
 </div>
