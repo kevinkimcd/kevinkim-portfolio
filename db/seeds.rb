@@ -603,3 +603,75 @@ Content.create(
   musing_id: 3,
   position: 5
 )
+
+Musing.create(
+  title: "The supersizing of automobile and airline brands",
+  image: "musings/04-supersized-branding/00-thumbnail.jpg"
+)
+
+Content.create(
+  text_content: "When I was growing up, I used to play a little game with my dad in which we would try to guess the model and model year of cars we would see on the streets. I attribute my sharp eye for detail to my dad, who would be able to explain exactly how to distinguish between the taillight shape of a 1991 Honda Accord and the 1992 mid-cycle refresh, or how the 2000 Lexus RX taillights contain white accents not found in the 1999 model year.
+
+  One of my dad’s favorite cars was the Acura Integra, which was sadly phased out of production in the mid-2000s. It came as a pleasant surprise then, when it was announced that Acura would be reviving the model in 2023. After months of teaser images, we finally got to see the vehicle in full:",
+  musing_id: 4,
+  position: 1
+)
+
+Content.create(
+  image: "musings/04-supersized-branding/01-acura.jpg",
+  text_content: "2023 Acura Integra (left), 2006 Acura Integra (right) (image credits: cars.com, autoevolution.com)",
+  musing_id: 4,
+  position: 2
+)
+
+Content.create(
+  text_content: "Aside from the obvious modernization of the overall styling, one thing about the new model stuck out immediately - the Acura logo emblem. It takes up significantly more space on the front fascia compared to the last generation model. At the same time, the larger emblem doesn’t necessarily seem extraordinarily large compared to those from other car manufacturers. It made me realize that the supersizing of car emblems has been a common occurrence in the car industry for the last few decades.",
+  musing_id: 4,
+  position: 3
+)
+
+Content.create(
+  image: "musings/04-supersized-branding/02-hyundai.jpg",
+  text_content: "2022 Hyundai Sonata (left), 1995 Hyundai Sonata (right) (image credits: hyundaiusa.com, cars.com)",
+  musing_id: 4,
+  position: 4
+)
+
+Content.create(
+  text_content: "This trend towards larger emblems seems like not just an aesthetic choice, but also an effort to create more weight behind the manufacturers’ brand identity. At a quick glance, it is much easier to identify the manufacturer of a vehicle if the logo is featured more prominently. This sort of instant brand recognition can be a powerful tool in an industry as saturated as the automotive industry, where aesthetics is a big differentiator for the average consumer that’s not a hardcore car-enthusiast. This can also explain the supersizing of other visual features such as the car grill, a frequent butt of the Internet's jokes.",
+  musing_id: 4,
+  position: 5
+)
+
+Content.create(
+  image: "musings/04-supersized-branding/03-meme.jpg",
+  text_content: "Image credits: chewedcorn.tumblr.com/post/655964167769145344, carthrottle.com/post/a7pe6k9",
+  musing_id: 4,
+  position: 6
+)
+
+Content.create(
+  text_content: "But it’s not just the automotive industry where we’re seeing brand assets grow larger. Some recent brand refreshes in the airline industry have included larger airline logos featured on aircraft fuselage.",
+  musing_id: 4,
+  position: 7
+)
+
+Content.create(
+  image: "musings/04-supersized-branding/04-united.jpg",
+  text_content: "Image credits: United Airlines, theflight.info/seat-map-boeing-737-800-united-airlines-best-seats-in-plane",
+  musing_id: 4,
+  position: 8
+)
+
+Content.create(
+  image: "musings/04-supersized-branding/05-icelandair.jpg",
+  text_content: "Image credits: Icelandair, airlinesfleet.com/icelandair-fleet-boeing-737-max-8-details-and-pictures",
+  musing_id: 4,
+  position: 9
+)
+
+Content.create(
+  text_content: "As airline livery redesigns occur much less frequently than automobile redesigns, it’s harder to say whether these supersized airline brand identities are going to be an industry-wide trend, or merely one-offs. But either way, it’s interesting to see these large brands in the automotive and airline industries shifting their brand identities into this stylistic direction. Given the nature of design trends, I imagine we will continue to see larger car grills, car logo emblems, and airline logos for some time to come. When designers fully exhaust this aesthetic, I’m sure what’s old will be new again, and we will see a return to the more subtle examples of brand identity that were commonplace decades ago.",
+  musing_id: 4,
+  position: 10
+)
