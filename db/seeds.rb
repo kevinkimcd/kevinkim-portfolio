@@ -638,40 +638,29 @@ Content.create(
 )
 
 Content.create(
-  text_content: "This trend towards larger emblems seems like not just an aesthetic choice, but also an effort to create more weight behind the manufacturers’ brand identity. At a quick glance, it is much easier to identify the manufacturer of a vehicle if the logo is featured more prominently. This sort of instant brand recognition can be a powerful tool in an industry as saturated as the automotive industry, where aesthetics is a big differentiator for the average consumer that’s not a hardcore car-enthusiast. This can also explain the supersizing of other visual features such as the car grill, a frequent butt of the Internet's jokes.",
+  text_content: "This trend towards larger emblems seems like not just an aesthetic choice, but also an effort to create more weight behind the manufacturers’ brand identity. At a quick glance, it is much easier to identify the manufacturer of a vehicle if the logo is featured more prominently. This sort of instant brand recognition can be a powerful tool in an industry as saturated as the automotive industry, where aesthetics is a big differentiator for the average consumer that’s not a hardcore car-enthusiast. This can also explain the supersizing of other visual features such as the car grill, a frequent butt of the Internet's jokes.
+  
+  But it’s not just the automotive industry where we’re seeing brand assets grow larger. Some recent brand refreshes in the airline industry have included larger airline logos featured on aircraft fuselage.",
   musing_id: 4,
   position: 5
 )
 
 Content.create(
-  image: "musings/04-supersized-branding/03-meme.jpg",
-  text_content: "Image credits: chewedcorn.tumblr.com/post/655964167769145344, carthrottle.com/post/a7pe6k9",
+  image: "musings/04-supersized-branding/03-united.jpg",
+  text_content: "Image credits: United Airlines, theflight.info/seat-map-boeing-737-800-united-airlines-best-seats-in-plane",
   musing_id: 4,
   position: 6
 )
 
 Content.create(
-  text_content: "But it’s not just the automotive industry where we’re seeing brand assets grow larger. Some recent brand refreshes in the airline industry have included larger airline logos featured on aircraft fuselage.",
+  image: "musings/04-supersized-branding/04-icelandair.jpg",
+  text_content: "Image credits: Icelandair, airlinesfleet.com/icelandair-fleet-boeing-737-max-8-details-and-pictures",
   musing_id: 4,
   position: 7
 )
 
 Content.create(
-  image: "musings/04-supersized-branding/04-united.jpg",
-  text_content: "Image credits: United Airlines, theflight.info/seat-map-boeing-737-800-united-airlines-best-seats-in-plane",
-  musing_id: 4,
-  position: 8
-)
-
-Content.create(
-  image: "musings/04-supersized-branding/05-icelandair.jpg",
-  text_content: "Image credits: Icelandair, airlinesfleet.com/icelandair-fleet-boeing-737-max-8-details-and-pictures",
-  musing_id: 4,
-  position: 9
-)
-
-Content.create(
   text_content: "As airline livery redesigns occur much less frequently than automobile redesigns, it’s harder to say whether these supersized airline brand identities are going to be an industry-wide trend, or merely one-offs. But either way, it’s interesting to see these large brands in the automotive and airline industries shifting their brand identities into this stylistic direction. Given the nature of design trends, I imagine we will continue to see larger car grills, car logo emblems, and airline logos for some time to come. When designers fully exhaust this aesthetic, I’m sure what’s old will be new again, and we will see a return to the more subtle examples of brand identity that were commonplace decades ago.",
   musing_id: 4,
-  position: 10
+  position: 8
 )
