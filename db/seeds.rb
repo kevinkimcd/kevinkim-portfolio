@@ -619,8 +619,7 @@ Content.create(
 
 Content.create(
   image: "musings/04-supersized-branding/01-acura.jpg",
-  text_content: "2023 Acura Integra (left), 2006 Acura Integra (right)
-  (image credits: cars.com, autoevolution.com)",
+  text_content: "2023 Acura Integra (left), 2006 Acura Integra (right) | image credits: cars.com, autoevolution.com",
   musing_id: 4,
   position: 2
 )
@@ -633,8 +632,7 @@ Content.create(
 
 Content.create(
   image: "musings/04-supersized-branding/02-hyundai.jpg",
-  text_content: "2022 Hyundai Sonata (left), 1995 Hyundai Sonata (right)
-  (image credits: hyundaiusa.com, cars.com)",
+  text_content: "2022 Hyundai Sonata (left), 1995 Hyundai Sonata (right) | image credits: hyundaiusa.com, cars.com",
   musing_id: 4,
   position: 4
 )
@@ -649,16 +647,14 @@ Content.create(
 
 Content.create(
   image: "musings/04-supersized-branding/03-united.jpg",
-  text_content: "2019 United Airlines livery (left), 2010-2019 United Airlines livery (right)
-  (image credits: United Airlines, theflight.info/seat-map-boeing-737-800-united-airlines-best-seats-in-plane)",
+  text_content: "2019 United Airlines livery (left), 2010-2019 United Airlines livery (right) | image credits: United Airlines, theflight.info",
   musing_id: 4,
   position: 6
 )
 
 Content.create(
   image: "musings/04-supersized-branding/04-icelandair.jpg",
-  text_content: "2022 Icelandair livery (left), 2006-2022 Icelandair livery (right)
-  (image credits: Icelandair, airlinesfleet.com/icelandair-fleet-boeing-737-max-8-details-and-pictures)",
+  text_content: "2022 Icelandair livery (left), 2006-2022 Icelandair livery (right) | image credits: Icelandair, airlinesfleet.com",
   musing_id: 4,
   position: 7
 )
