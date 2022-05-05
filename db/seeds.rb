@@ -647,14 +647,14 @@ Content.create(
 
 Content.create(
   image: "musings/04-supersized-branding/03-united.jpg",
-  text_content: "2019 United Airlines livery (left), 2010-2019 United Airlines livery (right) | image credits: United Airlines, theflight.info",
+  text_content: "2019-present United livery (left), 2010-2019 United livery (right) | image credits: United Airlines, theflight.info",
   musing_id: 4,
   position: 6
 )
 
 Content.create(
   image: "musings/04-supersized-branding/04-icelandair.jpg",
-  text_content: "2022 Icelandair livery (left), 2006-2022 Icelandair livery (right) | image credits: Icelandair, airlinesfleet.com",
+  text_content: "2022-present Icelandair livery (left), 2006-2022 Icelandair livery (right) | image credits: Icelandair, airlinesfleet.com",
   musing_id: 4,
   position: 7
 )
@@ -663,4 +663,47 @@ Content.create(
   text_content: "As airline livery redesigns occur much less frequently than automobile redesigns, it’s harder to say whether these supersized airline brand identities are going to be an industry-wide trend, or merely one-offs. But either way, it’s interesting to see these large brands in the automotive and airline industries shifting their brand identities into this stylistic direction. Given the nature of design trends, I imagine we will continue to see larger car grills, car logo emblems, and airline logos for some time to come. When designers fully exhaust this aesthetic, I’m sure what’s old will be new again, and we will see a return to the more subtle examples of brand identity that were commonplace decades ago.",
   musing_id: 4,
   position: 8
+)
+
+Musing.create(
+  title: "Delivery or pickup or pickup or delivery?",
+  image: "musings/05-delivery-pickup/00-thumbnail.jpg"
+)
+
+Content.create(
+  text_content: "Like many people, my use of food delivery services spiked dramatically during the pandemic. As such, I’ve stared at the UIs of apps like DoorDash and Uber Eats long enough to notice certain quirks. One quirk in particular has always bothered me, and that’s the Delivery/Pickup toggle on the DoorDash website.
+
+  When you select Delivery, there’s another confusing toggle further down for Pickup. From a user flow perspective, it’s a strange and redundant design decision. Why allow the user to select Delivery at the start of the user flow, only to have a separate Pickup filter further downstream?",
+  musing_id: 5,
+  position: 1
+)
+
+Content.create(
+  image: "musings/05-delivery-pickup/01-delivery.jpg",
+  text_content: "Delivery/Pickup toggle at the top with an additional Pickup filter further below",
+  musing_id: 5,
+  position: 2
+)
+
+Content.create(
+  text_content: "If you select the Pickup toggle at the top of the page instead, you see even more examples of redundancy. Right under the Pickup toggle is yet another filter for Pickup, which confusingly, can be unselected. Under each business, you have the option to select Delivery or Pickup, in case the previous two Pickup options weren’t sufficient.",
+  musing_id: 5,
+  position: 3
+)
+
+Content.create(
+  image: "musings/05-delivery-pickup/02-pickup.jpg",
+  text_content: "Delivery/Pickup toggle at the top, another Pickup filter below it, and another Delivery/Pickup option for each restaurant",
+  musing_id: 5,
+  position: 4
+)
+
+Content.create(
+  text_content: "One might make the argument that a user should be able to change their mind between Delivery and Pickup while they’re in the middle of the user flow. This is a valid concern, but one that can be addressed without creating so much redundancy. If the user decides to change their mind before selecting a restaurant, they can simply do so using the existing Delivery/Pickup toggle at the very top of the page. If the user has already selected a restaurant, there’s still a toggle to swap between Delivery and Pickup while on the restaurant menu page. In other words, the user already has plenty of opportunity to go between Delivery and Pickup at various stages of their journey in the current UI.
+
+  This is not to say that redundancy is inherently flawed. On the contrary, there are certain use cases in which redundancy is good design — think safety systems in automobiles and aircrafts that can compensate for human error, or popup dialogues that require you to confirm an action that has potentially impactful, irreversible consequences. But in this case, the redundancy only creates visual clutter and potential confusion.
+  
+  Users don’t need to have access to every option in their disposal at every single step of the user flow. A good UI should expose these affordances at the right moments. In the case of DoorDash, it may very well be a simple fix — simplify the user flow such that a user does not see more than one Delivery/Pickup toggle on a given page.",
+  musing_id: 5,
+  position: 5
 )
