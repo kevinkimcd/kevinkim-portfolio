@@ -703,7 +703,7 @@ Content.create(
 
   This is not to say that redundancy is inherently flawed. On the contrary, there are certain use cases in which redundancy is good design — think safety systems in automobiles and aircrafts that can compensate for human error, or popup dialogues that require you to confirm an action that has potentially impactful, irreversible consequences. But in this case, the redundancy only creates visual clutter and potential confusion.
   
-  Users don’t need to have access to every option in their disposal at every single step of the user flow. A good UI should expose these affordances at the right moments. In the case of DoorDash, it may very well be a simple fix — simplify the user flow such that a user does not see more than one Delivery/Pickup toggle on a given page.",
+  Users don’t need to have access to every option in their disposal at every single step of the user flow. A good UI should expose these affordances at the right moments. In the case of DoorDash, it may very well be a simple fix — simplify the user flow such that a user does not see more than one Delivery/Pickup toggle on any given page.",
   musing_id: 5,
   position: 5
 )
