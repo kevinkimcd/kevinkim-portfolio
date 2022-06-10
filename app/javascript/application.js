@@ -2,15 +2,14 @@
 //= require jquery_ujs
 
 // Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
-import "@hotwired/turbo-rails"
+// Commented out below to remove turbolinks behavior
+// import "@hotwired/turbo-rails"
 import "controllers"
 import "application"
 
 
 // scripts for arrow in work index page
-
-
-$(window).on('scroll', function() {
+$(window).on("scroll", function() {
   $.fn.checkScrollPosition();
 });
 
@@ -47,7 +46,7 @@ $(".work-arrow").first().on("click", function() {
     $("html, body").animate({
       scrollTop: $("#work-arrow-up").offset().top - Math.floor($("#work").height())
     }, 500);
-  }
+  };
 });
 
 $(".work-arrow").last().on("click", function() {
@@ -55,7 +54,7 @@ $(".work-arrow").last().on("click", function() {
     $("html, body").animate({
       scrollTop: $("#work-top").offset().top
     }, 500);
-  }
+  };
 });
 
 
