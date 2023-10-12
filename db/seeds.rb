@@ -12,7 +12,7 @@ Project.create(
   end_year: 2023,
   thumbnail: "thumbnails/project09.jpg",
   banner: "banners/project09.png",
-  banner_height: "912px",
+  banner_height: "800px",
   banner_bg_color: "#EFE8DD",
   banner_text_color: "#736156",
   banner_subtext_color: "#C8B8AE",
