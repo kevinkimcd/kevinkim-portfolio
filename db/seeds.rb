@@ -13,9 +13,9 @@ Project.create(
   thumbnail: "thumbnails/project09.jpg",
   banner: "banners/project09.jpg",
   banner_height: "912px",
-  banner_bg_color: "#D9CACA",
-  banner_text_color: "#2E1616",
-  banner_subtext_color: "#725D5D",
+  banner_bg_color: "#EFE8DD",
+  banner_text_color: "#736156",
+  banner_subtext_color: "#C8B8AE",
   banner_upper_padding: "0px",
   banner_lower_padding: "0px",
 )
