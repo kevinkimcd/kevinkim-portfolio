@@ -14,9 +14,9 @@ Project.create(
   banner: "banners/project09.png",
   banner_height: "800px",
   banner_bg_color: "#EFE8DD",
-  banner_text_color: "#736156",
+  banner_text_color: "#624C2C",
   banner_subtext_color: "#C8B8AE",
-  banner_upper_padding: "0px",
+  banner_upper_padding: "120px",
   banner_lower_padding: "0px",
 )
 
@@ -94,8 +94,8 @@ Project.create(
   banner_bg_color: "#EFF1F4",
   banner_text_color: "#414953",
   banner_subtext_color: "#B5BCC6",
-  banner_upper_padding: "278px",
-  banner_lower_padding: "278px",
+  banner_upper_padding: "240px",
+  banner_lower_padding: "0px",
 )
 
 Project.create(
