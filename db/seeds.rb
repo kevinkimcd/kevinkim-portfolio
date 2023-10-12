@@ -1,6 +1,26 @@
 # Project seeds below
 
 Project.create(
+  title: "Loyalty & CRM strategy",
+  client_name: "US-based restaurant chain",
+  blurb: "Multichannel customer journey design & development of long-term loyalty program strategy",
+  description: "Client was in the initial planning stages of revamping their current generation loyalty program. We leveraged historical CRM and transaction data to support the analysis and segmentation of loyalty program members as part of a long-term roadmap recommendation.
+  
+  We also performed continuous optimization of existing customer journey designs to seamlessly integrate into broader CRM strategy and campaign objectives.",
+  company: "GALE Partners",
+  start_year: 2022,
+  end_year: 2023,
+  thumbnail: "thumbnails/project09.jpg",
+  banner: "banners/project09.jpg",
+  banner_height: "912px",
+  banner_bg_color: "#D9CACA",
+  banner_text_color: "#2E1616",
+  banner_subtext_color: "#725D5D",
+  banner_upper_padding: "0px",
+  banner_lower_padding: "0px",
+)
+
+Project.create(
   title: "Customer service chatbot assistant",
   client_name: "US-based cable & Internet provider",
   blurb: "Product planning and design of chatbot assistant to transition common support agent inquiries to automated web chat and SMS",
@@ -17,7 +37,7 @@ Project.create(
   banner_text_color: "#333333",
   banner_subtext_color: "#c9c9c9",
   banner_upper_padding: "240px",
-  banner_lower_padding: "88px"
+  banner_lower_padding: "88px",
 )
 
 Project.create(
@@ -37,7 +57,7 @@ Project.create(
   banner_text_color: "#D7E3F4",
   banner_subtext_color: "#46525F",
   banner_upper_padding: "240px",
-  banner_lower_padding: "200px"
+  banner_lower_padding: "200px",
 )
 
 Project.create(
@@ -57,7 +77,7 @@ Project.create(
   banner_text_color: "#063636",
   banner_subtext_color: "#A9C7C7",
   banner_upper_padding: "96px",
-  banner_lower_padding: "128px"
+  banner_lower_padding: "128px",
 )
 
 Project.create(
@@ -75,7 +95,7 @@ Project.create(
   banner_text_color: "#414953",
   banner_subtext_color: "#B5BCC6",
   banner_upper_padding: "278px",
-  banner_lower_padding: "278px"
+  banner_lower_padding: "278px",
 )
 
 Project.create(
@@ -93,7 +113,7 @@ Project.create(
   banner_text_color: "#21333C",
   banner_subtext_color: "#96AFBE",
   banner_upper_padding: "216px",
-  banner_lower_padding: "216px"
+  banner_lower_padding: "216px",
 )
 
 Project.create(
@@ -113,7 +133,7 @@ Project.create(
   banner_text_color: "#2E1616",
   banner_subtext_color: "#725D5D",
   banner_upper_padding: "0px",
-  banner_lower_padding: "0px"
+  banner_lower_padding: "0px",
 )
 
 Project.create(
@@ -133,7 +153,7 @@ Project.create(
   banner_text_color: "#FFFFFF",
   banner_subtext_color: "#888888",
   banner_upper_padding: "-168px",
-  banner_lower_padding: "0px"
+  banner_lower_padding: "0px",
 )
 
 Project.create(
@@ -153,172 +173,187 @@ Project.create(
   banner_text_color: "#3F454E",
   banner_subtext_color: "#BCC0C7",
   banner_upper_padding: "168px",
-  banner_lower_padding: "152px"
+  banner_lower_padding: "152px",
 )
 
 
 # Slide seeds below
 
 Slide.create(
+  title: "Customer journey optimization",
+  description: "Performed analytics of engagement and transactional metrics of multichannel customer journeys to perform continuous optimization of journey design, audience segments, and reinvestment initiatives.",
+  project_id: 1,
+  image: "slides/project09_01.png"
+)
+
+Slide.create(
+  title: "Loyalty strategy & design",
+  description: "Developed long-term strategic recommendations for next generation loyalty program. Modeling exercises to support recommendations included inputs from CRM and transaction data as well as competitive benchmarking.",
+  project_id: 1,
+  image: "slides/project09_02.png"
+)
+
+Slide.create(
   title: "Journey planning",
   description: "Budget for initial MVP launch supported a limited collection of customer journeys. These journeys were selected and prioritized based on predicted volume of support inquiries and projected cost savings.",
-  project_id: 1,
+  project_id: 2,
   image: "slides/project01_01.png"
 )
 
 Slide.create(
   title: "Conversation flow design",
   description: "Design boards created to comprehensively detail conversation flows of selected user journeys. Designs included entry/exit criteria, branching logic based on user inputs, references to APIs, and variations for proactive vs. reactive messaging.",
-  project_id: 1,
+  project_id: 2,
   image: "slides/project01_02.png"
 )
 
 Slide.create(
   title: "Technical requirements",
   description: "Technical requirements drafted upon review of conversation flow design with engineering teams. Requirements outlined incremental development work needed to execute API calls and data exchange with internal systems (e.g., billing, appointments, service status, etc.).",
-  project_id: 1,
+  project_id: 2,
   image: "slides/project01_03.png"
 )
 
 Slide.create(
   title: "Data requirement building",
   description: "Identified data sources and data elements required to fulfill contractual revenue share deals made with content providers and technology partners.",
-  project_id: 2,
+  project_id: 3,
   image: "slides/project02_01.png"
 )
 
 Slide.create(
   title: "Process visualization",
   description: "Designed visualizations of proposed end-to-end data flows as outlined in the data requirements, highlighting incremental development work required by system owners to fully integrate into the proposed process.",
-  project_id: 2,
+  project_id: 3,
   image: "slides/project02_02.png"
 )
 
 Slide.create(
   title: "Reporting design",
   description: "Designed methodology for performing calculations on raw data inputs to produce a series of reports detailing revenue share breakdowns and underlying performance metrics with content providers and technology partners.",
-  project_id: 2,
+  project_id: 3,
   image: "slides/project02_03.png"
 )
 
 Slide.create(
   title: "Platform strategy workshops",
   description: "Facilitated product strategy working sessions with senior leadership figures across the organization to define app platform vision, multi-year roadmap strategy & objectives, and organizational impact assessments.",
-  project_id: 3,
+  project_id: 4,
   image: "slides/project03_01.png"
 )
 
 Slide.create(
   title: "Executive presentation building",
   description: "Produced comprehensive strategy presentations and playbooks for executive audiences to support internal roadmap planning & budgeting.",
-  project_id: 3,
+  project_id: 4,
   image: "slides/project03_02.png"
 )
 
 Slide.create(
   title: "Workstream planning",
   description: "Created a program framework and identified workstreams & product owners needed to execute against proposed roadmap. Led meetings to initiate workstream-level product planning and requirement gathering.",
-  project_id: 3,
+  project_id: 4,
   image: "slides/project03_03.png"
 )
 
 Slide.create(
   title: "Customer lifecycle analysis",
   description: "Analyzed product performance across the customer lifecycle from acquisition to churn to assess root causes of low activation and engagement.",
-  project_id: 4,
+  project_id: 5,
   image: "slides/project04_01.png"
 )
 
 Slide.create(
   title: "Competitive analysis",
   description: "Performed competitive analysis of existing media streaming devices in the US marketplace, with a focus on product features, UX/UI, market availability, cost, and app availability.",
-  project_id: 4,
+  project_id: 5,
   image: "slides/project04_02.png"
 )
 
 Slide.create(
   title: "Primary market research",
   description: "Conducted a focus group study of 25 participants to identify primary pain points in the user experience. Built customer personas using a combination of focus groups and analysis of internal data.",
-  project_id: 4,
+  project_id: 5,
   image: "slides/project04_03.png"
 )
 
 Slide.create(
   title: "Product requirements & roadmap",
   description: "Interfaced between engineering groups, business stakeholders, and project managers to define product requirements and prioritize feature sets across a two-year roadmap.",
-  project_id: 5,
+  project_id: 6,
   image: "slides/project05_01.png"
 )
 
 Slide.create(
   title: "Epics & user stories",
   description: "Drafted complete set of product epics and user stories aligned to requirements. Worked with technical leads to distribute features across multiple releases within two-year roadmap.",
-  project_id: 5,
+  project_id: 6,
   image: "slides/project05_02.png"
 )
 
 Slide.create(
   title: "User experience design",
   description: "Collaborated with in-house design team to define user groups and user experience journeys. Working sessions led to the drafting of UX requirements and visual guidelines optimized against product use cases and organization\’s design language.",
-  project_id: 5,
+  project_id: 6,
   image: "slides/project05_03.png"
 )
 
 Slide.create(
   title: "Requirement & use case definition",
   description: "Defined business requirements for minimally viable product features and produced use case backlog against requirements.",
-  project_id: 6,
+  project_id: 7,
   image: "slides/project06_01.png"
 )
 
 Slide.create(
   title: "Product wireframes & mockups",
   description: "Created conceptual wireframes of application to support product planning sessions.",
-  project_id: 6,
+  project_id: 7,
   image: "slides/project06_02.png"
 )
 
 Slide.create(
   title: "Portfolio management",
   description: "Assessed roadmap against product portfolio of recent acquisitions and conducted top-down market sizing analysis to identify major growth areas and make recommendations towards portfolio optimization.",
-  project_id: 6,
+  project_id: 7,
   image: "slides/project06_03.png"
 )
 
 Slide.create(
   title: "Client segmentation",
   description: "Built model to segment existing global client base using analytics performed on factors such as client size, industry, region, and estimated propensity.",
-  project_id: 7,
+  project_id: 8,
   image: "slides/project07_01.png"
 )
 
 Slide.create(
   title: "Strategy workshops",
   description: "Led data-driven workshops for senior executives across Asia and Latin America to receive regional input to fine-tune segmentation model and make strategic recommendations based on model outputs.",
-  project_id: 7,
+  project_id: 8,
   image: "slides/project07_02.png"
 )
 
 Slide.create(
   title: "Go-to-market sales strategy",
   description: "Created strategic guidelines to optimize sales resources, repeatable solutions, and external sales partners in next generation go-to-market approach driven by newly formed client segments.",
-  project_id: 7,
+  project_id: 8,
   image: "slides/project07_03.png"
 )
 
 Slide.create(
   title: "Natural language processing ontologies",
   description: "Created ontologies to create associations between common keywords and specific retail products for natural language processing model. Ontologies were used to convert web scraped unstructured social media and weather data into quantifiable metrics for model input.",
-  project_id: 8,
+  project_id: 9,
   image: "slides/project08_01.png"
 )
 
 Slide.create(
   title: "Data analysis",
   description: "Analysis of outputs from Watson Analytics to assess accuracy of machine learning-based demand forecasts against realtime consumer sales. Continuous adjustments made to ontologies used for text sentiment analysis and language classification.",
-  project_id: 8,
+  project_id: 9,
   image: "slides/project08_02.png"
 )
+
 
 
 # seed for musings starts here
